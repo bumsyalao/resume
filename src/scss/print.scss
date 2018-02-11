@@ -1,0 +1,13 @@
+// Style for printer
+
+.printer {
+	.controls,
+	.download-btn {
+		display: none;
+	}
+	.date {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+}

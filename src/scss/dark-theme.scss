@@ -1,0 +1,41 @@
+.dark-theme {
+	$background: #252627;
+	$border: #444452;
+	$color: darken(#e7e7e7, 7%);
+	$hover: darken($color, 89%);
+
+	background-color: $background;
+	color: $color;
+
+	.sheet {
+		background-color: #181818;
+		box-shadow: none;
+	}
+
+	.head {
+		border-color: $border;
+	}
+
+	a {
+		color: $color;
+		&:hover {
+			background-color: $hover;
+		}
+	}
+
+	.contact-item {
+		color: $color;
+	}
+
+	.section {
+		h2 {
+			border-color: $border;
+		}
+		.date {
+			color: darken($color, 40%);
+		}
+		.tag-item {
+			border-color: darken($color, 40%);
+		}
+	}
+}

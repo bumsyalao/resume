@@ -1,0 +1,10 @@
+@media (max-width: 700px) {
+	.responsive {
+		.sheet {
+			padding: $pad * 5;
+		}
+		.flex {
+			flex-direction: column;
+		}
+	}
+}

@@ -1,0 +1,155 @@
+$pad: 3px;
+$margin: 3px;
+$rad: 3px;
+$textSize: 1rem;
+$pageSize: 1100px;
+
+#wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height: 100%;
+	transition: 0.4s;
+}
+
+.flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.flex-item {
+	display: inline-block;
+}
+
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.controls {
+	position: absolute;
+	top: $margin * 2;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 100%;
+	max-width: $pageSize;
+	padding: $pad;
+	text-align: right;
+}
+
+.toggle-theme {
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 115px;
+}
+
+.sheet {
+	margin: ($margin * 20) auto;
+	position: relative;
+	max-width: $pageSize;
+	padding: $pad * 15;
+}
+
+.head {
+	border-bottom: 2px solid;
+	h1 {
+		font-size: 1.9rem;
+		font-weight: 700;
+	}
+	.download-btn {
+		font-size: 1.2rem;
+		padding: ($pad * 2) ($pad * 6);
+		border-radius: $rad;
+		white-space: nowrap;
+	}
+}
+
+.contact {
+	margin-top: $margin * 3;
+	.flex-item {
+		text-align: center;
+	}
+	.contact-item {
+		transition: 0.3s;
+		display: inline-block;
+		white-space: nowrap;
+		text-align: center;
+		font-size: 0.96rem;
+		font-weight: 500;
+		padding: $pad ($pad * 3);
+		border-radius: $rad;
+	}
+}
+
+.pitch {
+	margin-top: $margin * 5;
+	p {
+		font-size: $textSize;
+		padding: $pad;
+	}
+}
+
+.section {
+	margin-top: $margin * 6;
+	.flex {
+		align-items: baseline;
+	}
+	.flex-item {
+		flex: 1;
+		display: block;
+	}
+	h2 {
+		font-size: 1.56rem;
+		font-weight: 600;
+		padding-bottom: $pad * 2;
+		border-bottom: 2px dashed;
+	}
+	article {
+		margin-top: $margin * 8;
+		max-width: 493px;
+		&:first-of-type {
+			margin-right: $margin * 8;
+		}
+	}
+	h3 {
+		position: relative;
+		font-size: 1.095rem;
+		font-weight: 700;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.date {
+		font-size: 0.88rem;
+		font-weight: 700;
+		white-space: nowrap;
+	}
+	p {
+		font-size: $textSize;
+		display: block;
+		margin-top: $margin * 2;
+		line-height: 1.5;
+	}
+	.tags {
+		display: block;
+		margin-top: $margin * 2;
+	}
+	.tag-item {
+		display: inline-block;
+		text-decoration: none;
+		border: 1px solid;
+		padding: ($pad / 7) ($pad * 2);
+		font-size: 0.75rem;
+		margin-left: $margin * 3;
+		border-radius: $rad;
+		font-weight: normal;
+		&:first-of-type:not(a) {
+			margin-left: 0;
+		}
+	}
+}

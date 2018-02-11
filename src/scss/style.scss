@@ -1,0 +1,29 @@
+@import 'reset';
+@import '~normalize-scss/sass/_normalize.scss';
+@import '~mdi/css/materialdesignicons.min.css';
+
+body {
+	background-color: transparent;
+	font-size: 16px;
+	line-height: 1.4;
+	font-family: 'Roboto', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Lato', serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+@import 'structure';
+@import 'default-theme';
+@import 'dark-theme';
+@import 'switch';
+@import 'responsive';
+@import 'print';
