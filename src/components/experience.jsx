@@ -51,7 +51,7 @@ const Experience = () => {
 						<span className="tag-item">Postilion</span>
 						<span className="tag-item">EFT</span>
 						<span className="tag-item">MSSQL</span>
-						<a href="https://interswitch.com/" target="_blank" className="tag-item">
+						<a href="https://www.interswitchgroup.com/articles/GirlsWhoCode.html" target="_blank" className="tag-item">
 							<i className="mdi mdi-earth" /> interswitch.com
 						</a>
 					</div>
