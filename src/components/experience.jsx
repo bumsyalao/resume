@@ -40,7 +40,7 @@ const Experience = () => {
 					</h3>
 					<p>
 						<ul>
-							<li>Full FEP Deployment, Upgrades, Maintenance & Support (Postilion, Postcard, Postilion Office).</li>
+							<li>Full FEP Deployment, Upgrades, Maintenance & Support of core banking systems (Postilion, Postcard, Postilion Office).</li>
 							<li>HSM (Hardware Security Module) Deployment.</li>
 							<li>Channel Enhancement & Certification (ATM, POS, WEB, Mobile, EMV Certification).</li>
 							<li>Integration to external systems, parties and networks. Examples include: Integration to Processors/Switches (MasterCard, VISA, VERVE).</li>
