@@ -11,6 +11,7 @@ const Education = () => {
 					Covenant University <small className="date">2010 - 2014</small>
 				</h3>
 				<p>Bachelor's Degree, Computer Science</p>
+				<p> CGPA: 4.43/5 </p>
 				<p>Final year project: A Computing Platform for Metabolic Network Visualization and Topological Analysis.</p>
 			</article>
 		</section>
