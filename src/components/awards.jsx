@@ -6,17 +6,18 @@ const Awards = () => {
 		<section className="section">
 			<h2>Selected Awards and Certifications</h2>
 			<div className="flex">
+
+				<article className="flex-item">
+					<h3>
+					Mobile Web Specialist <small className="date">2018</small>
+					</h3>
+					<p>Udacity</p>
+				</article>
 				<article className="flex-item">
 					<h3>
 					Microsoft Certified Professional <small className="date">2016</small>
 					</h3>
 					<p>Microsoft License 13392204</p>
-				</article>
-				<article className="flex-item">
-					<h3>
-					Postilion Basic Traning <small className="date">2016</small>
-					</h3>
-					<p><a href="https://www.linkedin.com/company/5063/" target="_blank">ACI worldwide </a></p>
 				</article>
 			</div>
 			<div className="flex">
@@ -29,6 +30,14 @@ const Awards = () => {
 					<h3>Python- codecademy <small className="date">2017</small>
 					</h3>
 					<p><a href="https://www.codecademy.com/" target="_blank">Codecademy</a></p>
+				</article>
+			</div>
+			<div className="flex">
+				<article className="flex-item">
+					<h3>
+					Postilion Basic Traning <small className="date">2016</small>
+					</h3>
+					<p><a href="https://www.linkedin.com/company/5063/" target="_blank">ACI worldwide </a></p>
 				</article>
 			</div>
 		</section>
