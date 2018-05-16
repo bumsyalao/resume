@@ -13,6 +13,7 @@ const Experience = () => {
 					<p>
 						<ul>
 							<li>Building Full stack application using Micro-service for frontend and backend architecture while following agile software programming practices.</li>
+							<li>Writing Front-end, Back-end and E2E test.</li>
 							<li>Contributed to Reaction commerce open source.</li>
 							<li>Contributed to Cards For Humanity, a fast-paced online version of the popular card game, Cards Against Humanity.</li>
 						</ul>
@@ -22,6 +23,7 @@ const Experience = () => {
 						<span className="tag-item">React</span>
 						<span className="tag-item">Redux</span>
 						<span className="tag-item">SCSS</span>
+						<span className="tag-item">TDD</span>
 						<span className="tag-item">Javascript ES6</span>
 					</div>
 					<div className="tags">

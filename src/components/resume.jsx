@@ -10,6 +10,7 @@ const STORE_KEY = 'USE_DARK_MODE';
 class Resume extends React.Component {
 	state = {
 		checkedInput: false
+		
 	};
 
 	componentWillMount() {
