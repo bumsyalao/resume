@@ -9,7 +9,7 @@ const Awards = () => {
 
 				<article className="flex-item">
 					<h3>
-					Mobile Web Specialist <small className="date">2018</small>
+					Front-End Web Developer <small className="date">2018</small>
 					</h3>
 					<p>Udacity</p>
 				</article>

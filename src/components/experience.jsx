@@ -6,6 +6,30 @@ const Experience = () => {
 		<section className="section">
 			<h2>Relevant Experience</h2>
 			<div className="flex">
+			<article className="flex-item">
+					<h3>
+						Remote & Freelancing <small className="date">Feb 2018 - Present</small>
+					</h3>
+					<p>
+						<ul>
+							<li>Working remotely with engineering teams to build web applications</li>
+						</ul>
+					</p>
+					<div className="tags">
+						<span className="tag-item">NodeJS</span>
+						<span className="tag-item">React</span>
+						<span className="tag-item">Redux</span>
+						<span className="tag-item">SCSS</span>
+						<span className="tag-item">TDD</span>
+						<span className="tag-item">Javascript ES6</span>
+					</div>
+					<div className="tags">
+						<span className="tag-item">MongoDB</span>
+						<span className="tag-item">Docker</span>
+						<span className="tag-item">Webpack</span>
+						<span className="tag-item">AWS</span>
+					</div>
+				</article>
 				<article className="flex-item">
 					<h3>
 						Software Developer at Andela NG <small className="date">Aug 2017 - Feb 2018</small>
@@ -36,7 +60,9 @@ const Experience = () => {
 						</a>
 					</div>
 				</article>
-				<article className="flex-item">
+			</div>
+			<div className="flex">
+			<article className="flex-item">
 					<h3>
 						EFT Specialist at Interswitch NG<small className="date">Jan 2016 - Aug 2017</small>
 					</h3>
@@ -58,8 +84,6 @@ const Experience = () => {
 						</a>
 					</div>
 				</article>
-			</div>
-			<div className="flex">
 				<article className="flex-item">
 					<h3>
 						Intern at Niger Insurance Plc. <small className="date">Mar 2013 - Aug 2013</small>
