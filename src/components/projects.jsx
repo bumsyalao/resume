@@ -44,6 +44,20 @@ const Projects = () => {
 			<div className="flex">
 				<article className="flex-item">
 					<h3>
+						Flames<small className="date">2018</small>
+					</h3>
+					<p>A game of love and prediction.</p>
+					<div className="tags">
+						<span className="tag-item">HTML</span>
+						<span className="tag-item">CSS</span>
+						<span className="tag-item">Javascript</span>
+						<a href="https://bumsyalao.github.io/Flames/" target="_blank" className="tag-item">
+							<i className="mdi mdi-earth" /> Flames
+						</a>
+					</div>
+				</article>
+				<article className="flex-item">
+					<h3>
 						Diary<small className="date">2017</small>
 					</h3>
 					<p>A python/django playground.</p>
