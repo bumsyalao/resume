@@ -29,6 +29,7 @@ class Resume extends React.Component {
 	};
 
 	render() {
+    const phone = '+971501507152'
 		return (
 			<div id="wrapper" className={this.state.checkedInput ? 'dark-theme' : 'default-theme'}>
 				<section className="controls">
@@ -78,8 +79,10 @@ class Resume extends React.Component {
 							</a>
 						</span>
 						<span className="flex-item">
+              <a href={`tel:${phone}`}>
 								<i className="mdi mdi-phone" />
-								&nbsp;+2349082091930
+								&nbsp;{phone}
+              </a>
 						</span>
 					</section>
 					<section className="pitch">
