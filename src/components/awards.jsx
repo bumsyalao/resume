@@ -6,7 +6,6 @@ const Awards = () => {
 		<section className="section">
 			<h2>Selected Awards and Certifications</h2>
 			<div className="flex">
-
 				<article className="flex-item">
 					<h3>
 					Front-End Web Developer <small className="date">2018</small>
