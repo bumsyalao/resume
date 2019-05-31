@@ -12,7 +12,8 @@ const Experience = () => {
           </h3>
           <p>
             <ul>
-              <li>Building Full stack application using Micro-service for frontend and backend architecture while following agile software programming practices.</li>
+              <li>I worked on the TAMM Project here In Abu Dhabi. It is an impactful project aiming to revolutionise how citizens of Abu Dhabi interact with government services.</li>
+              <li>Building Full stack applications using Micro-service for frontend and backend architecture while following agile software programming practices.</li>
               <li>Writing Frontend and Backend tests</li>
             </ul>
           </p>

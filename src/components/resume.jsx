@@ -86,7 +86,7 @@ class Resume extends React.Component {
 					</section>
 					<section className="pitch">
 						<p>
-							Passionate about learning and building stuff for the web. Able to understand business requirements, prioritise work based on highest business value and work with teams to solve
+							3+ years of experience in web application development, working mostly with JavaScript; React as frontend framework and NodeJS as backend solution. I understand business requirements, prioritise work based on highest business value and work with teams to solve
 							problems.
 						</p>
 					</section>
