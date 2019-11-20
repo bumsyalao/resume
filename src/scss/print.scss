@@ -1,13 +1,9 @@
 // Style for printer
-$margin: 3px;
 
 .printer {
 	.controls,
 	.download-btn {
 		display: none;
-  }
-  .education {
-    margin-top: $margin * 8;
   }
 	.date {
 		position: absolute;

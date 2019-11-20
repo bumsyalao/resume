@@ -7,7 +7,7 @@ import Resume from './src/components/resume.jsx';
 const config = {
 	format: 'A4',
 	renderDelay: 1000,
-	height: '1850px',
+	height: '2000px',
 	width: '1420px',
 	orientation: 'portrait'
 };
