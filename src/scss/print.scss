@@ -1,4 +1,5 @@
 // Style for printer
+$margin: 3px;
 
 .printer {
 	.controls,
@@ -6,7 +7,7 @@
 		display: none;
   }
   .education {
-    margin-top: 10rem;
+    margin-top: $margin * 8;
   }
 	.date {
 		position: absolute;
