@@ -13,16 +13,26 @@ const Experience = () => {
           <p>
             <ul>
               <li>I worked on the TAMM Project here In Abu Dhabi. It is an impactful project aiming to revolutionise how citizens of Abu Dhabi interact with government services.</li>
-              <li>Building Full stack applications using Micro-service for frontend and backend architecture while following agile software programming practices.</li>
-              <li>Writing Frontend and Backend tests</li>
+              <li>Built frontend visualisation of investement data using charts, graphs, highly interactive investment maps and business calculators for potential business investors.</li>
+              <li>Optimise full stack applications using Micro-service for frontend and backend architecture while following <strong>agile</strong> software programming practices.</li>
+              <li>Built and managed business processes with camunda business process modeler.</li>
+              <li>Wrote Frontend and Backend tests.</li>
             </ul>
           </p>
           <div className="tags">
             <span className="tag-item">NodeJS</span>
+            <span className="tag-item">Typescript</span>
             <span className="tag-item">React</span>
+            <span className="tag-item">React Hooks</span>
             <span className="tag-item">Redux</span>
-            <span className="tag-item">CSS</span>
+            <span className="tag-item">GraphQL</span>
+            <span className="tag-item">SCSS</span>
             <span className="tag-item">TDD</span>
+            <span className="tag-item">Jest</span>
+            <span className="tag-item">Agile</span>
+            <span className="tag-item">CamundaBPM</span>
+            <span className="tag-item">Esri Maps</span>
+            <span className="tag-item">Docker</span>
             <span className="tag-item">Javascript</span>
           </div>
         </article>
@@ -32,13 +42,19 @@ const Experience = () => {
           </h3>
           <p>
             <ul>
-              <li>Working remotely with engineering teams to build web applications</li>
+              <li>I Worked remotely with engineering teams to build web applications</li>
+              <li>I worked on Stanbic Bank IBM APIC; Deployment of UAT, Test and Production servers</li>
+              <li>Set up network servers for the API Gateway DB, API manager and Developer portal.</li>
+              <li>Set up load balancers, to connect with the API cloud and manage network traffic.</li>
             </ul>
           </p>
           <div className="tags">
             <span className="tag-item">NodeJS</span>
+            <span className="tag-item">LoopBackJS</span>
+            <span className="tag-item">Networking</span>
+            <span className="tag-item">IBM Cloud</span>
+            <span className="tag-item">IBM API Connect</span>
             <span className="tag-item">React</span>
-            <span className="tag-item">Redux</span>
             <span className="tag-item">SCSS</span>
             <span className="tag-item">TDD</span>
             <span className="tag-item">Javascript ES6</span>
@@ -59,8 +75,8 @@ const Experience = () => {
           </h3>
           <p>
             <ul>
-              <li>Building Full stack application using Micro-service for frontend and backend architecture while following agile software programming practices.</li>
-              <li>Writing Front-end, Back-end and E2E test.</li>
+              <li>I built Full stack applications using Micro-service for frontend and backend architecture while following agile software programming practices.</li>
+              <li>Wrote Front-end, Back-end and E2E test.</li>
               <li>Contributed to Reaction commerce open source.</li>
               <li>Contributed to Cards For Humanity, a fast-paced online version of the popular card game, Cards Against Humanity.</li>
             </ul>

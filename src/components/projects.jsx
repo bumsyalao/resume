@@ -6,20 +6,18 @@ const Projects = () => {
 		<section className="section">
 			<h2>Selected Personal Projects</h2>
 			<div className="flex">
-				<article className="flex-item">
+      <article className="flex-item">
 					<h3>
-						Ideabox <small className="date">2017</small>
+						The-Consent-Game <small className="date">2019</small>
 					</h3>
-					<p>Ideabox is a simple application that allows users to create a pool of ideas and promote collaboration.</p>
+					<p>The consent game is built for The Consent Workshop, to teach young adults about consent.</p>
 					<div className="tags">
-						<span className="tag-item">NodeJS</span>
-						<span className="tag-item">React</span>
-						<span className="tag-item">Redux</span>
-						<span className="tag-item">SCSS</span>
-						<span className="tag-item">Mongoose</span>
-						<span className="tag-item">Javascript ES6</span>
-						<a href="https://ideabox-now.herokuapp.com/" target="_blank" className="tag-item">
-							<i className="mdi mdi-earth" /> ideabox
+					<span className="tag-item">React</span>
+					<span className="tag-item">Redux</span>
+					<span className="tag-item">SCSS</span>
+					<span className="tag-item">Javascript ES6</span>
+						<a href="https://the-consent-game.herokuapp.com/" target="_blank" className="tag-item">
+						<i className="mdi mdi-earth" /> The-Consent-Game
 						</a>
 					</div>
 				</article>
@@ -42,6 +40,23 @@ const Projects = () => {
 				</article>
 			</div>
 			<div className="flex">
+      <article className="flex-item">
+					<h3>
+						Ideabox <small className="date">2017</small>
+					</h3>
+					<p>Ideabox is a simple application that allows users to create a pool of ideas and promote collaboration.</p>
+					<div className="tags">
+						<span className="tag-item">NodeJS</span>
+						<span className="tag-item">React</span>
+						<span className="tag-item">Redux</span>
+						<span className="tag-item">SCSS</span>
+						<span className="tag-item">Mongoose</span>
+						<span className="tag-item">Javascript ES6</span>
+						<a href="https://ideabox-now.herokuapp.com/" target="_blank" className="tag-item">
+							<i className="mdi mdi-earth" /> ideabox
+						</a>
+					</div>
+				</article>
 				<article className="flex-item">
 					<h3>
 						Flames<small className="date">2018</small>
@@ -56,7 +71,7 @@ const Projects = () => {
 						</a>
 					</div>
 				</article>
-				<article className="flex-item">
+				{/* <article className="flex-item">
 					<h3>
 						Diary<small className="date">2017</small>
 					</h3>
@@ -68,7 +83,7 @@ const Projects = () => {
 							<i className="mdi mdi-earth" /> Diary
 						</a>
 					</div>
-				</article>
+				</article> */}
 			</div>
 		</section>
 	);
