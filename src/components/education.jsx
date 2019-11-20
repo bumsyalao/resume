@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 const Education = () => {
 	return (
-		<section className="section">
+		<section className="section education">
 			<h2>Education</h2>
 			<div className="flex" />
 			<article className="flex-item">

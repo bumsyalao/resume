@@ -13,9 +13,8 @@ const Experience = () => {
           <p>
             <ul>
               <li>I worked on the TAMM Project here In Abu Dhabi. It is an impactful project aiming to revolutionise how citizens of Abu Dhabi interact with government services.</li>
-              <li>Built frontend visualisation of investement data using charts, graphs, highly interactive investment maps and business calculators for potential business investors.</li>
-              <li>Optimise full stack applications using Micro-service for frontend and backend architecture while following <strong>agile</strong> software programming practices.</li>
-              <li>Built and managed business processes with camunda business process modeler.</li>
+              <li>Built highly optimisied frontend visualisation of investement data using charts, graphs, highly interactive investment maps and business calculators for potential business investors.</li>
+              <li>Managed business processes with camunda business process modeler, while following <strong>agile</strong> software programming practices.</li>
               <li>Wrote Frontend and Backend tests.</li>
             </ul>
           </p>
@@ -23,20 +22,21 @@ const Experience = () => {
             <span className="tag-item">NodeJS</span>
             <span className="tag-item">Typescript</span>
             <span className="tag-item">React</span>
-            <span className="tag-item">React Hooks</span>
-            <span className="tag-item">Redux</span>
             <span className="tag-item">GraphQL</span>
+            <span className="tag-item">PostgresSQL</span>
+            <div className="tags">
             <span className="tag-item">SCSS</span>
             <span className="tag-item">TDD</span>
             <span className="tag-item">Jest</span>
             <span className="tag-item">Agile</span>
             <span className="tag-item">CamundaBPM</span>
             <span className="tag-item">Esri Maps</span>
-            <span className="tag-item">Docker</span>
-            <span className="tag-item">Javascript</span>
+            </div>
+            <div className="tags">
             <a href="https://www.tamm.abudhabi/" target="_blank" className="tag-item">
               <i className="mdi mdi-earth" /> tamm.abudhabi
 						</a>
+            </div>
           </div>
         </article>
         <article className="flex-item">
@@ -58,15 +58,6 @@ const Experience = () => {
             <span className="tag-item">IBM Cloud</span>
             <span className="tag-item">IBM API Connect</span>
             <span className="tag-item">React</span>
-            <span className="tag-item">SCSS</span>
-            <span className="tag-item">TDD</span>
-            <span className="tag-item">Javascript ES6</span>
-          </div>
-          <div className="tags">
-            <span className="tag-item">MongoDB</span>
-            <span className="tag-item">Docker</span>
-            <span className="tag-item">Webpack</span>
-            <span className="tag-item">AWS</span>
           </div>
         </article>
 
@@ -110,8 +101,8 @@ const Experience = () => {
             <ul>
               <li>Full FEP Deployment, Upgrades, Maintenance & Support of core banking systems (Postilion, Postcard, Postilion Office).</li>
               <li>HSM (Hardware Security Module) Deployment.</li>
-              <li>Channel Enhancement & Certification (ATM, POS, WEB, Mobile, EMV Certification).</li>
-              <li>Integration to external systems, parties and networks. Examples include: Integration to Processors/Switches (MasterCard, VISA, VERVE).</li>
+              <li>Channel Enhancement & Certification (ATM, POS, WEB, and Mobile).</li>
+              <li>Integration to external systems and networks. Examples: Integration to Processors/Switches (MasterCard, VISA, VERVE).</li>
               <li>Installing, managing, upgrading and administering Microsoft SQL databases</li>
             </ul>
           </p>
