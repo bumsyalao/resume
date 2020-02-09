@@ -13,7 +13,7 @@ const Experience = () => {
           <p>
             <ul>
               <li>I worked on the TAMM Project here In Abu Dhabi. It is an impactful project aiming to revolutionise how citizens of Abu Dhabi interact with government services.</li>
-              <li>Built highly optimisied frontend visualisation of investement data using charts, graphs, highly interactive investment maps and business calculators for potential business investors.</li>
+              <li>Built highly optimisied frontend visualisation of investment data using charts, graphs, highly interactive investment maps and business calculators for potential business investors.</li>
               <li>Managed business processes with camunda business process modeler, while following <strong>agile</strong> software programming practices.</li>
               <li>Wrote Frontend and Backend tests.</li>
             </ul>
@@ -102,7 +102,7 @@ const Experience = () => {
               <li>Full FEP Deployment, Upgrades, Maintenance & Support of core banking systems (Postilion, Postcard, Postilion Office).</li>
               <li>HSM (Hardware Security Module) Deployment.</li>
               <li>Channel Enhancement & Certification (ATM, POS, WEB, and Mobile).</li>
-              <li>Integration to external systems and networks. Examples: Integration to Processors/Switches (MasterCard, VISA, VERVE).</li>
+              <li>Integration of external systems and networks. Examples: Integration to Processors/Switches (MasterCard, VISA, VERVE).</li>
               <li>Installing, managing, upgrading and administering Microsoft SQL databases</li>
             </ul>
           </p>
