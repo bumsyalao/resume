@@ -44,7 +44,7 @@ class Resume extends React.Component {
 				<main className="sheet">
 					<section className="flex head">
 						<div className="flex-item">
-							<h1>Olubunmi Ruth Alao</h1>
+							<h1>Bunmi Alao</h1>
 						</div>
 						<div className="flex-item">
 							<a className="download-btn" href="./resume.pdf" download="Olubunmi_Ruth_Alao_Resume.pdf">
@@ -86,7 +86,7 @@ class Resume extends React.Component {
 					</section>
 					<section className="pitch">
 						<p>
-							3+ years of experience in web application development, working mostly with JavaScript; React as frontend framework and NodeJS as backend solution. I understand business requirements, prioritise work based on highest business value and work with teams to solve
+							Experience in web application development, working mostly with JavaScript; React as frontend framework and NodeJS as backend solution. I understand business requirements, prioritise work based on highest business value and enjoy working with teams to solve
 							problems.
 						</p>
 					</section>
