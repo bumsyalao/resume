@@ -2,8 +2,12 @@
 
 .printer {
 	.controls,
-	.download-btn {
+  .download-btn
+   {
 		display: none;
+  }
+  .translation-btn{
+    display: none;
   }
 	.date {
 		position: absolute;

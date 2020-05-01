@@ -13,7 +13,7 @@ const Experience = () => {
           <p>
             <ul>
               <li>I worked on the TAMM Project here In Abu Dhabi. It is an impactful project aiming to revolutionise how citizens of Abu Dhabi interact with government services.</li>
-              <li>Built highly optimisied frontend visualisation of investment data using charts, graphs, highly interactive investment maps and business calculators for potential business investors.</li>
+              <li>Built highly optimised frontend visualisation of investment data using charts, graphs, highly interactive investment maps and business calculators for potential business investors.</li>
               <li>Managed business processes with camunda business process modeler, while following <strong>agile</strong> software programming practices.</li>
               <li>Wrote Frontend and Backend tests.</li>
             </ul>

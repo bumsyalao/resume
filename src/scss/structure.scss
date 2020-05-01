@@ -153,4 +153,28 @@ a {
 		}
 	}
 }
+.heading-item{
+  display: flex;
+}
+
+.translation-text{
+  margin: 14px;
+}
+
+.translation-btn{
+  margin-left: -15px;
+  margin-top: 2px;
+  background: none;
+  border: none;
+  // border-radius: 50%;
+  color: blue;
+  cursor: pointer;
+  outline: none;
+
+  span {
+    font-size: 18px !important;
+  }
+}
+
+
 
