@@ -29,6 +29,21 @@ a {
 	text-decoration: none;
 }
 
+strong {
+	font-weight: 900;
+	font-size: 17px;
+}
+
+ul {
+	margin-left: 19px;
+
+	li {
+		display: list-item;
+		list-style-type: disc;
+	}
+
+}
+
 .controls {
 	position: absolute;
 	top: $margin * 2;
@@ -57,10 +72,12 @@ a {
 
 .head {
 	border-bottom: 2px solid;
+
 	h1 {
 		font-size: 1.9rem;
 		font-weight: 700;
 	}
+
 	.download-btn {
 		font-size: 1.2rem;
 		padding: ($pad * 2) ($pad * 6);
@@ -71,9 +88,11 @@ a {
 
 .contact {
 	margin-top: $margin * 3;
+
 	.flex-item {
 		text-align: center;
 	}
+
 	.contact-item {
 		transition: 0.3s;
 		display: inline-block;
@@ -88,6 +107,7 @@ a {
 
 .pitch {
 	margin-top: $margin * 5;
+
 	p {
 		font-size: $textSize;
 		padding: $pad;
@@ -96,26 +116,33 @@ a {
 
 .section {
 	margin-top: $margin * 6;
+
 	.flex {
 		align-items: baseline;
 	}
+
 	.flex-item {
 		flex: 1;
 		display: block;
 	}
+
 	h2 {
 		font-size: 1.56rem;
 		font-weight: 600;
 		padding-bottom: $pad * 2;
 		border-bottom: 2px dashed;
 	}
+
 	article {
 		margin-top: $margin * 8;
 		max-width: 493px;
+
 		&:first-of-type {
 			margin-right: $margin * 8;
 		}
+
 	}
+
 	h3 {
 		position: relative;
 		font-size: 1.095rem;
@@ -124,21 +151,25 @@ a {
 		align-items: center;
 		justify-content: space-between;
 	}
+
 	.date {
 		font-size: 0.88rem;
 		font-weight: 700;
 		white-space: nowrap;
 	}
+
 	p {
 		font-size: $textSize;
 		display: block;
 		margin-top: $margin * 2;
 		line-height: 1.5;
 	}
+
 	.tags {
 		display: block;
 		margin-top: $margin * 2;
 	}
+
 	.tag-item {
 		display: inline-block;
 		text-decoration: none;
@@ -148,33 +179,32 @@ a {
 		margin-left: $margin * 3;
 		border-radius: $rad;
 		font-weight: normal;
+
 		&:first-of-type:not(a) {
 			margin-left: 0;
 		}
 	}
 }
-.heading-item{
-  display: flex;
+
+.heading-item {
+	display: flex;
 }
 
-.translation-text{
-  margin: 14px;
+.translation-text {
+	margin: 14px;
 }
 
-.translation-btn{
-  margin-left: -15px;
-  margin-top: 2px;
-  background: none;
-  border: none;
-  // border-radius: 50%;
-  color: blue;
-  cursor: pointer;
-  outline: none;
+.translation-btn {
+	margin-left: -15px;
+	margin-top: 2px;
+	background: none;
+	border: none;
+	// border-radius: 50%;
+	color: blue;
+	cursor: pointer;
+	outline: none;
 
-  span {
-    font-size: 18px !important;
-  }
+	span {
+		font-size: 18px !important;
+	}
 }
-
-
-

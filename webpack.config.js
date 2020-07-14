@@ -48,7 +48,9 @@ const config = {
 				NODE_ENV: JSON.stringify(ENVIRONMENT)
 			}
 		}),
-		new webpack.DefinePlugin({ 'global.GENTLY': false }),
+		new webpack.DefinePlugin({
+			'global.GENTLY': false
+		}),
 		new webpack.NoEmitOnErrorsPlugin(),
 		new ExtractTextPlugin('style.css')
 	],
@@ -62,28 +64,47 @@ const config = {
 	},
 
 	module: {
-		rules: [
-			{
+		rules: [{
 				test: /\.scss$/,
 				use: ExtractTextPlugin.extract({
-					use: [{ loader: 'css-loader', options: { minimize: true, importLoaders: 1 } }, postCSSLoader, { loader: 'sass-loader' }]
+					use: [{
+						loader: 'css-loader',
+						options: {
+							minimize: true,
+							importLoaders: 1
+						}
+					}, postCSSLoader, {
+						loader: 'sass-loader'
+					}]
 				})
 			},
 			{
 				test: /\.css$/,
 				use: ExtractTextPlugin.extract({
 					fallback: 'style-loader',
-					use: [
-						{
-							loader: 'css-loader',
-							options: { minimize: true, importLoaders: 1 }
+					use: [{
+						loader: 'css-loader',
+						options: {
+							minimize: true,
+							importLoaders: 1
 						}
-					]
+					}]
 				})
 			},
-			{ test: /\.jsx?$/, exclude: /node_modules/, loader: ['babel-loader'] },
-			{ test: /\.json$/, exclude: /node_modules/, loader: 'json' },
-			{ test: /\.(png|jpg|gif)$/, loader: 'file-loader?limit=100000' },
+			{
+				test: /\.jsx?$/,
+				exclude: /node_modules/,
+				loader: ['babel-loader']
+			},
+			{
+				test: /\.json$/,
+				exclude: /node_modules/,
+				loader: 'json'
+			},
+			{
+				test: /\.(png|jpg|gif)$/,
+				loader: 'file-loader?limit=100000'
+			},
 			{
 				test: /\.(ttf|otf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
 				loader: 'file-loader?name=fonts/[name].[ext]'
@@ -100,11 +121,15 @@ if (ENVIRONMENT === 'development') {
 
 	config.module.rules[0] = {
 		test: /\.scss$/,
-		use: [
-			{ loader: 'style-loader' },
+		use: [{
+				loader: 'style-loader'
+			},
 			{
 				loader: 'css-loader',
-				options: { minimize: true, importLoaders: 1 }
+				options: {
+					minimize: true,
+					importLoaders: 1
+				}
 			},
 			postCSSLoader,
 			{
@@ -117,7 +142,11 @@ if (ENVIRONMENT === 'development') {
 		]
 	};
 
-	config.module.rules[1] = { test: /\.css$/, exclude: /node_modules/, loader: ['css-loader'] };
+	config.module.rules[1] = {
+		test: /\.css$/,
+		exclude: /node_modules/,
+		loader: ['css-loader']
+	};
 } else {
 	/**
 	 * PRODUCTION!

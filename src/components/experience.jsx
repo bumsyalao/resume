@@ -13,9 +13,9 @@ const Experience = () => {
           <p>
             <ul>
               <li>I worked on the TAMM Project here In Abu Dhabi. It is an impactful project aiming to revolutionise how citizens of Abu Dhabi interact with government services.</li>
-              <li>Built highly optimised frontend visualisation of investment data using charts, graphs, highly interactive investment maps and business calculators for potential business investors.</li>
-              <li>Managed business processes with camunda business process modeler, while following <strong>agile</strong> software programming practices.</li>
-              <li>Wrote Frontend and Backend tests.</li>
+              <li>Developed highly optimised frontend visualisation of investment data using charts, graphs, interactive investment maps and business calculators for potential business investors.</li>
+              <li>Wrote numerous unit and API tests.</li>
+              <li>Handled API integrations, and also ensured cross-browser support, while following <strong>agile</strong> software programming practices.</li>
             </ul>
           </p>
           <div className="tags">
@@ -25,16 +25,16 @@ const Experience = () => {
             <span className="tag-item">GraphQL</span>
             <span className="tag-item">PostgresSQL</span>
             <div className="tags">
-            <span className="tag-item">SCSS</span>
-            <span className="tag-item">TDD</span>
-            <span className="tag-item">Jest</span>
-            <span className="tag-item">Agile</span>
-            <span className="tag-item">CamundaBPM</span>
-            <span className="tag-item">Esri Maps</span>
+              <span className="tag-item">SCSS</span>
+              <span className="tag-item">TDD</span>
+              <span className="tag-item">Jest</span>
+              <span className="tag-item">Agile</span>
+              <span className="tag-item">Microservices</span>
+              <span className="tag-item">Esri Maps</span>
             </div>
             <div className="tags">
-            <a href="https://www.tamm.abudhabi/" target="_blank" className="tag-item">
-              <i className="mdi mdi-earth" /> tamm.abudhabi
+              <a href="https://www.tamm.abudhabi/" target="_blank" className="tag-item">
+                <i className="mdi mdi-earth" /> tamm.abudhabi
 						</a>
             </div>
           </div>
@@ -69,8 +69,9 @@ const Experience = () => {
           </h3>
           <p>
             <ul>
-              <li>I built Full stack applications using Micro-service for frontend and backend architecture while following agile software programming practices.</li>
-              <li>Wrote Front-end, Back-end and E2E test.</li>
+              <li>Developed an online publishing platform, where users can share and manage articles.</li>
+              <li>Developed a complex messaging web application, to enable communication and collaboration amongst teams.</li>
+              <li>Wrote numerous unit and API tests.</li>
               <li>Contributed to Reaction commerce open source.</li>
               <li>Contributed to Cards For Humanity, a fast-paced online version of the popular card game, Cards Against Humanity.</li>
             </ul>
