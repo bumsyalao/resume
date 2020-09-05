@@ -38,7 +38,7 @@
     "nodemon": "^1.19.4",
     "postcss-loader": "2.0.10",
     "sass-loader": "6.0.6",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "style-loader": "0.19.1",
     "webpack": "3.10.0",
     "webpack-dev-middleware": "2.0.4",
