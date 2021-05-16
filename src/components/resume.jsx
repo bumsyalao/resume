@@ -105,7 +105,7 @@ class Resume extends React.Component {
           </section>
           <section className="pitch">
             <p>
-              Experience in web application development, working mostly with <strong>JavaScript</strong>; <strong>ReactJS</strong> as frontend framework and <strong>NodeJS</strong> as backend solution. Professional with exceptional work ethic, I understand business requirements, prioritise work based on highest business value and enjoy working with teams to solve
+              Software engineer with 5 years professional experience in web application development currently based in Dubai, working mostly with <strong>JavaScript</strong>; <strong>ReactJS</strong> as frontend framework and <strong>NodeJS</strong> as backend solution. Professional with exceptional work ethic, I understand business requirements, prioritise work based on highest business value and enjoy working with teams to solve
               problems.
 						</p>
           </section>

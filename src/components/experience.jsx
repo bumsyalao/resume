@@ -8,7 +8,41 @@ const Experience = () => {
       <div className="flex">
         <article className="flex-item">
           <h3>
-            Software Developer (contractor) at IBM <small className="date">Dec 2018 - Present</small>
+          Senior Fullstack Engineer at Tradeling <small className="date">Sept 2020 - Present</small>
+          </h3>
+          <p>
+            <ul>
+              <li>Managed a full fledged back office application for Tradeling a leading B2B market place in the MENA region.</li>
+              <li>Developed highly optimised back office application that provides data and functionality to configure orders, products, campaigns etc  while providing support to Tradeling customers.</li>
+              <li>Handled migrations from mongoDB to postgreSQL.</li>
+              <li>Wrote numerous unit and API tests.</li>
+            </ul>
+          </p>
+          <div className="tags">
+            <span className="tag-item">NodeJS</span>
+            <span className="tag-item">Typescript</span>
+            <span className="tag-item">React</span>
+            <span className="tag-item">PostgresSQL</span>
+            <span className="tag-item">MongoDB</span>
+            <div className="tags">
+              <span className="tag-item">TDD</span>
+              <span className="tag-item">Jest</span>
+              <span className="tag-item">Express</span>
+              <span className="tag-item">Metabase</span>
+              <span className="tag-item">TDD</span>
+
+
+            </div>
+            <div className="tags">
+              <a href="https://www.tradeling.com/" target="_blank" className="tag-item">
+                <i className="mdi mdi-earth" /> Tradeling
+						</a>
+            </div>
+          </div>
+        </article>
+        <article className="flex-item">
+          <h3>
+            Software Developer (contractor) at IBM <small className="date">Dec 2018 </small>
           </h3>
           <p>
             <ul>
@@ -39,33 +73,11 @@ const Experience = () => {
             </div>
           </div>
         </article>
-        <article className="flex-item">
-          <h3>
-            Remote & Freelancing <small className="date">Feb 2018 - Dec 2018</small>
-          </h3>
-          <p>
-            <ul>
-              <li>I Worked remotely with engineering teams to build web applications</li>
-              <li>I worked on Stanbic Bank IBM APIC; Deployment of UAT, Test and Production servers</li>
-              <li>Set up network servers for the API Gateway DB, API manager and Developer portal.</li>
-              <li>Set up load balancers, to connect with the API cloud and manage network traffic.</li>
-            </ul>
-          </p>
-          <div className="tags">
-            <span className="tag-item">NodeJS</span>
-            <span className="tag-item">LoopBackJS</span>
-            <span className="tag-item">Networking</span>
-            <span className="tag-item">IBM Cloud</span>
-            <span className="tag-item">IBM API Connect</span>
-            <span className="tag-item">React</span>
-          </div>
-        </article>
-
       </div>
       <div className="flex">
         <article className="flex-item">
           <h3>
-            Software Developer at Andela NG <small className="date">Aug 2017 - Feb 2018</small>
+            Software Developer at Andela NG <small className="date">Aug 2017</small>
           </h3>
           <p>
             <ul>
@@ -96,7 +108,7 @@ const Experience = () => {
         </article>
         <article className="flex-item">
           <h3>
-            EFT Specialist at Interswitch NG<small className="date">Jan 2016 - Aug 2017</small>
+            EFT Specialist at Interswitch NG<small className="date">Jan 2016</small>
           </h3>
           <p>
             <ul>
@@ -116,7 +128,6 @@ const Experience = () => {
 						</a>
           </div>
         </article>
-
       </div>
     </section>
   );
