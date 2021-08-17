@@ -18,9 +18,8 @@ const Experience = () => {
 								leading B2B market place in the MENA region.
 							</li>
 							<li>
-								Developed highly optimised back office application that provides
-								data and functionality to configure orders, products, campaigns
-								etc while providing support to Tradeling customers.
+							Designing and implementing application architectures and code that is highly scalable, available, maintainable, and performant to provide
+								data and functionality to support tradeling cutomers, configure orders, products, campaigns, promotions, etc.
 							</li>
 							<li>Code reviews.</li>
 							<li>Handled migrations from mongoDB to postgreSQL.</li>

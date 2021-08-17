@@ -73,27 +73,33 @@ class Resume extends React.Component {
           </section>
           <section className="flex contact">
             <span className="flex-item">
-              <a className="contact-item" href="https://bumsyalao.github.io/bumsyalao.me/">
+              <a className="contact-item" href="https://bumsyalao.github.io/bumsyalao.me/" target="_blank">
                 <i className="mdi mdi-earth" />
 								&nbsp;http://bumsyalao.me/
 							</a>
             </span>
             <span className="flex-item">
-              <a className="contact-item" href="mailto:bumsyalao@gmail.com">
+              <a className="contact-item" href="mailto:bumsyalao@gmail.com" target="_blank">
                 <i className="mdi mdi-gmail" />
 								&nbsp;bumsyalao@gmail.com
 							</a>
             </span>
             <span className="flex-item">
-              <a className="contact-item" href="https://github.com/bumsyalao">
+              <a className="contact-item" href="https://github.com/bumsyalao" target="_blank">
                 <i className="mdi mdi-github-circle" />
 								&nbsp;/bumsyalao
 							</a>
             </span>
             <span className="flex-item">
-              <a className="contact-item" href="https://ng.linkedin.com/in/bumsyalao">
+              <a className="contact-item" href="https://ng.linkedin.com/in/bumsyalao" target="_blank">
                 <i className="mdi mdi-linkedin-box" />
 								&nbsp;/bumsyalao
+							</a>
+            </span>
+            <span className="flex-item">
+              <a className="contact-item" href="https://medium.com/@alaobunmi93" target="_blank">
+                <i className="mdi mdi-newspaper" />
+								&nbsp;/medium
 							</a>
             </span>
             <span className="flex-item">
@@ -105,7 +111,10 @@ class Resume extends React.Component {
           </section>
           <section className="pitch">
             <p>
-              Software engineer with 5 years professional experience in web application development currently based in Dubai, working mostly with <strong>JavaScript</strong>; <strong>ReactJS</strong> as frontend framework and <strong>NodeJS</strong> as backend solution. Professional with exceptional work ethic, I understand business requirements, prioritise work based on highest business value and enjoy working with teams to solve
+              Software engineer with 5 years professional experience in web application development currently based in Dubai, working mostly with <strong>JavaScript</strong>; <strong>ReactJS</strong> as frontend framework and <strong>NodeJS</strong> as backend solution. 
+              Professional with exceptional work ethic,
+               I have experience driving technical projects, prioritizing work, facilitating technical decisions and cross-functional team discussions
+               I understand business requirements, prioritise work based on highest business value and enjoy working with teams to solve
               problems.
 						</p>
           </section>

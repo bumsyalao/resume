@@ -36,7 +36,6 @@
     "extract-text-webpack-plugin": "2.1.2",
     "file-loader": "1.1.6",
     "html-pdf": "2.2.0",
-    "node-sass": "^4.13.0",
     "nodemon": "^1.19.4",
     "postcss-loader": "2.0.10",
     "sass-loader": "6.0.6",
@@ -49,6 +48,7 @@
     "express": "4.16.2",
     "material-components-web": "^6.0.0",
     "mdi": "2.1.19",
+    "node-sass": "^6.0.1",
     "normalize-scss": "7.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
