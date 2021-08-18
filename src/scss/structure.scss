@@ -68,6 +68,11 @@ ul {
 	position: relative;
 	max-width: $pageSize;
 	padding: $pad * 15;
+	border: 10px solid;
+	border-image-slice: 1;
+	border-image-source: linear-gradient(#4285F4, #DB4437, #F4B400, #0F9D58);
+	border-width: thin;
+	border-style: solid;
 }
 
 .head {
@@ -200,7 +205,7 @@ ul {
 	background: none;
 	border: none;
 	// border-radius: 50%;
-	color: blue;
+	color: #4285F4;
 	cursor: pointer;
 	outline: none;
 
