@@ -1,3 +1,4 @@
+@use "sass:math";
 $pad: 3px;
 $margin: 3px;
 $rad: 3px;
@@ -179,7 +180,7 @@ ul {
 		display: inline-block;
 		text-decoration: none;
 		border: 1px solid;
-		padding: ($pad / 7) ($pad * 2);
+		padding: math.div($pad, 7) ($pad * 2);
 		font-size: 0.75rem;
 		margin-left: $margin * 3;
 		border-radius: $rad;
