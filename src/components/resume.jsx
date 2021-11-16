@@ -91,7 +91,7 @@ class Resume extends React.Component {
 							</a>
             </span>
             <span className="flex-item">
-              <a className="contact-item" href="https://ng.linkedin.com/in/bumsyalao" target="_blank">
+              <a className="contact-item" href="https://linkedin.com/in/bumsyalao" target="_blank">
                 <i className="mdi mdi-linkedin-box" />
 								&nbsp;/bumsyalao
 							</a>
