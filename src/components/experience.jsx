@@ -26,7 +26,7 @@ const Experience = () => {
 							<li>Wrote numerous unit and API tests.</li>
 						</ul>
 					</p>
-					<div className="tags">
+					<div className="tags" id="description-1">
 						<span className="tag-item">NodeJS</span>
 						<span className="tag-item">Typescript</span>
 						<span className="tag-item">React</span>
@@ -76,7 +76,7 @@ const Experience = () => {
 							</li>
 						</ul>
 					</p>
-					<div className="tags">
+					<div className="tags" id="description-2">
 						<span className="tag-item">NodeJS</span>
 						<span className="tag-item">Typescript</span>
 						<span className="tag-item">React</span>
@@ -134,7 +134,7 @@ const Experience = () => {
 						<span className="tag-item">TDD</span>
 						<span className="tag-item">Javascript ES6</span>
 					</div>
-					<div className="tags">
+					<div className="tags" id="description-3">
 						<span className="tag-item">MongoDB</span>
 						<span className="tag-item">PostgresSQL</span>
 						<span className="tag-item">Webpack</span>
@@ -173,8 +173,10 @@ const Experience = () => {
 							</li>
 						</ul>
 					</p>
-					<div className="tags">
+					<div className="tags" id="description-4">
 						<span className="tag-item">Postilion</span>
+						<span className="tag-item">Load balancing</span>
+						<span className="tag-item">System design</span>
 						<span className="tag-item">EFT</span>
 						<span className="tag-item">MSSQL</span>
 						<a
