@@ -36,6 +36,7 @@ const Experience = () => {
 						<span className="tag-item">React</span>
 						<div className="tags">
 							<span className="tag-item">AWS</span>
+							<span className="tag-item">Docker</span>
 							<span className="tag-item">Jest</span>
 							<span className="tag-item">Express</span>
 							<span className="tag-item">TDD</span>
