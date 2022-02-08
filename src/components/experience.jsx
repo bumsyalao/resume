@@ -18,8 +18,10 @@ const Experience = () => {
 								leading B2B market place in the MENA region.
 							</li>
 							<li>
-							Designing and implementing application architectures and code that is highly scalable, available, maintainable, and performant to provide
-								data and functionality to support tradeling cutomers, configure orders, products, campaigns, promotions, etc.
+								Designing and implementing application architectures and code
+								that is highly scalable, available, maintainable, and performant
+								to provide data and functionality to support tradeling cutomers,
+								configure orders, products, campaigns, promotions, etc.
 							</li>
 							<li>Code reviews.</li>
 							<li>Handled migrations from mongoDB to postgreSQL.</li>
@@ -29,14 +31,13 @@ const Experience = () => {
 					<div className="tags" id="description-1">
 						<span className="tag-item">NodeJS</span>
 						<span className="tag-item">Typescript</span>
-						<span className="tag-item">React</span>
 						<span className="tag-item">PostgresSQL</span>
 						<span className="tag-item">MongoDB</span>
+						<span className="tag-item">React</span>
 						<div className="tags">
-							<span className="tag-item">TDD</span>
+							<span className="tag-item">AWS</span>
 							<span className="tag-item">Jest</span>
 							<span className="tag-item">Express</span>
-							<span className="tag-item">Metabase</span>
 							<span className="tag-item">TDD</span>
 						</div>
 						<div className="tags">
