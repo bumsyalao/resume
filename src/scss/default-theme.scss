@@ -23,6 +23,11 @@
 			background-color: $hover;
 		}
 	}
+	.name-link{
+		&:hover {
+			background-color: transparent !important;
+		}
+}
 
 	.contact-item {
 		color: $color;

@@ -53,7 +53,7 @@ const Projects = () => {
 				</article>
 			</div>
 			<div className="flex">
-				<article className="flex-item">
+				{/* <article className="flex-item">
 					<h3>
 						Post-It <small className="date">2017</small>
 					</h3>
@@ -76,7 +76,7 @@ const Projects = () => {
 							<i className="mdi mdi-earth" /> post-it
 						</a>
 					</div>
-				</article>
+				</article> */}
 				{/* <article className="flex-item">
 					<h3>
 						Ideabox <small className="date">2017</small>
@@ -94,7 +94,7 @@ const Projects = () => {
 						</a>
 					</div>
 				</article> */}
-				<article className="flex-item">
+				{/* <article className="flex-item">
 					<h3>
 						Flames<small className="date">2018</small>
 					</h3>
@@ -112,7 +112,7 @@ const Projects = () => {
 							Flames
 						</a>
 					</div>
-				</article>
+				</article> */}
 				{/* <article className="flex-item">
 					<h3>
 						Diary<small className="date">2017</small>

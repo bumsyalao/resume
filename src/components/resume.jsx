@@ -61,7 +61,25 @@ class Resume extends React.Component {
 				<main className="sheet">
 					<section className="flex head">
 						<div className="flex-item heading-item">
-							<h1>Bunmi Alao</h1>
+							<img
+								className="profile-image"
+								src="https://res.cloudinary.com/dcpfdxsly/image/upload/v1657062712/profile-picture_sslvt0.jpg"
+								alt="Avatar"
+							/>
+							<span
+								style={{
+									fontSize: "1.9rem",
+									fontWeight: 700,
+								}}
+							>
+								<a
+									className="name-link"
+									href="https://bumsyalao.github.io/resume/"
+								>
+									Bunmi Alao
+								</a>
+							</span>
+
 							<p className="translation-text">/buːmi/</p>
 							<button className="translation-btn" onClick={this.onPlay}>
 								<audio ref={this.myRef} id="myAudio">

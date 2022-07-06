@@ -6,12 +6,27 @@
    {
 		display: none;
   }
+
   .translation-btn{
     display: none;
   }
+	.translation-text{
+		display: none;
+	}
 	.date {
 		position: absolute;
 		right: 0;
 		top: 0;
+	}
+
+	.profile-image{
+		vertical-align:text-bottom !important;
+		height: 10%;
+		width: 10%;
+		margin: none !important;
+		border-radius: 50%;
+	}
+	.name-link{
+		color: #33333e !important;
 	}
 }
