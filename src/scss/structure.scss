@@ -29,6 +29,15 @@ a {
 	text-decoration: none;
 }
 
+
+.profile-image {
+	height: 10%;
+  width: 10%;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+
 strong {
 	font-weight: 900;
 	font-size: 17px;
@@ -41,6 +50,10 @@ ul {
 		display: list-item;
 		list-style-type: disc;
 	}
+	// li::before {content: "•"; color: #0466c8;
+	// 	display: inline-block; width: 1em;
+	// 	margin-left: -1em
+	// }
 
 }
 
@@ -193,6 +206,7 @@ ul {
 
 .heading-item {
 	display: flex;
+	align-items: center;
 }
 
 .translation-text {

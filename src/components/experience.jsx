@@ -14,7 +14,7 @@ const Experience = () => {
 					<p>
 						<ul>
 							<li>
-								Managed a full fledged back office application for Tradeling a
+								I managed a full fledged back office application for Tradeling a
 								leading B2B market place in the MENA region.
 							</li>
 							<li>
@@ -23,8 +23,18 @@ const Experience = () => {
 								to provide data and functionality to support tradeling cutomers,
 								configure orders, products, campaigns, promotions, etc.
 							</li>
-							<li>Code reviews.</li>
-							<li>Handled migrations from mongoDB to postgreSQL.</li>
+							<li>
+								I built backend and frontend components such as banners,
+								carousels, for the marketing team to customise pages to meet
+								business needs. Wrote unit test for all components. Fixed major
+								and minor bugs that may hinder user satisfaction.
+							</li>
+							<li>
+								Reviewed code that other developers wrote to ensure that it
+								matches existing standards, it is clean, and will not affect the
+								general performance of the application.
+							</li>
+							<li>I handled migrations from mongoDB to postgreSQL.</li>
 							<li>Wrote numerous unit and API tests.</li>
 						</ul>
 					</p>
@@ -177,9 +187,10 @@ const Experience = () => {
 					</p>
 					<div className="tags" id="description-4">
 						<span className="tag-item">Postilion</span>
+						<span className="tag-item">Fintech</span>
 						<span className="tag-item">Load balancing</span>
 						<span className="tag-item">System design</span>
-						<span className="tag-item">EFT</span>
+						<span className="tag-item">Electronic Funds Transfer</span>
 						<span className="tag-item">MSSQL</span>
 						<a
 							href="https://www.interswitchgroup.com/articles/GirlsWhoCode.html"
