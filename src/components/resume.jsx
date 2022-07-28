@@ -169,8 +169,8 @@ class Resume extends React.Component {
 							Software engineer with 5 years experience building scalable,
 							reliable and robust web applications currently based in Dubai,
 							working mostly with <strong>JavaScript</strong>;{" "}
-							<strong>NodeJS</strong> as frontend framework, and{" "}
-							<strong>ReactJS</strong> as backend solution. Professional with
+							<strong>ReactJS</strong> as frontend framework, and{" "}
+							<strong>NodeJS</strong> as backend solution. Professional with
 							exceptional work ethic, experience driving technical projects,
 							prioritizing work, facilitating technical decisions, and
 							cross-functional team discussions. I understand business
