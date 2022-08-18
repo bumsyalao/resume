@@ -14,28 +14,31 @@ const Experience = () => {
 					<p>
 						<ul>
 							<li>
-								I managed a full fledged back office application for Tradeling a
-								leading B2B market place in the MENA region.
-							</li>
-							<li>
-								Designing and implementing application architectures and code
+								Designed and implemented a full-fledged back-office application architecture and code
 								that is highly scalable, available, maintainable, and performant
-								to provide data and functionality to support tradeling cutomers,
-								configure orders, products, campaigns, promotions, etc.
+								to provide data and functionality to support Tradeling customers,
+								configure orders, products, campaigns, promotions, tags, commissions, invoices, etc.
 							</li>
 							<li>
-								I built backend and frontend components such as banners,
-								carousels, for the marketing team to customise pages to meet
-								business needs. Wrote unit test for all components. Fixed major
+								Spearheaded implementation of Headless CMS a key tool for the business and marketing team
+								which provides a more friendly to use CMS interface that enables the team in their day-to-day tasks.
+							</li>
+							<li>
+								Built backend and frontend components for banners,
+								carousels, cards, etc.
+								Implemented google analytics tracking and impressions tracking for all banners to ensure that Tradeling
+								can accurately capture relevant data from users' interaction with the marketing banners and promotions
+								and ultimately improve the way Tradeling targets its customers.
+							</li>
+							<li>
+								Wrote unit tests for all components and fixed major
 								and minor bugs that may hinder user satisfaction.
 							</li>
 							<li>
-								Reviewed code that other developers wrote to ensure that it
+								Reviewed code written by other developers to ensure that it
 								matches existing standards, it is clean, and will not affect the
-								general performance of the application.
+								the general performance of the application
 							</li>
-							<li>I handled migrations from mongoDB to postgreSQL.</li>
-							<li>Wrote numerous unit and API tests.</li>
 						</ul>
 					</p>
 					<div className="tags" id="description-1">
@@ -48,7 +51,8 @@ const Experience = () => {
 							<span className="tag-item">AWS</span>
 							<span className="tag-item">Docker</span>
 							<span className="tag-item">Jest</span>
-							<span className="tag-item">Express</span>
+							<span className="tag-item">REDIS</span>
+							<span className="tag-item">Microservices</span>
 							<span className="tag-item">TDD</span>
 						</div>
 						<div className="tags">
@@ -79,8 +83,11 @@ const Experience = () => {
 								data using charts, graphs, interactive investment maps and
 								business calculators for potential business investors.
 							</li>
-							<li>Wrote numerous unit and API tests.</li>
-							<li>Pair programming.</li>
+							<li>Wrote numerous unit and API tests and fixed major and minor bugs that may hinder user satisfaction.</li>
+							<li>Pair programming and code reviews to ensure that it
+								matches existing standards, it is clean, and will not affect the
+								the general performance of the application
+							</li>
 							<li>
 								Handled API integrations, and also ensured cross-browser
 								support, while following <strong>agile</strong> software
@@ -99,7 +106,7 @@ const Experience = () => {
 							<span className="tag-item">TDD</span>
 							<span className="tag-item">Jest</span>
 							<span className="tag-item">Agile</span>
-							<span className="tag-item">Microservices</span>
+							<span className="tag-item">Distributed Systems</span>
 							<span className="tag-item">Esri Maps</span>
 						</div>
 						<div className="tags">
