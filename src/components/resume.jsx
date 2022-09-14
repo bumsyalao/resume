@@ -61,11 +61,11 @@ class Resume extends React.Component {
 				<main className="sheet">
 					<section className="flex head">
 						<div className="flex-item heading-item">
-							<img
+							{/* <img
 								className="profile-image"
 								src="https://res.cloudinary.com/dcpfdxsly/image/upload/v1657062712/profile-picture_sslvt0.jpg"
 								alt="Avatar"
-							/>
+							/> */}
 							<span
 								style={{
 									fontSize: "1.9rem",
