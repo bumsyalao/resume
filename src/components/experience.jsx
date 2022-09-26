@@ -8,31 +8,32 @@ const Experience = () => {
 			<div className="flex">
 				<article className="flex-item">
 					<h3>
-						Senior Fullstack Engineer at Tradeling{" "}
+						Senior Fullstack Engineer
 						<small className="date">Sept 2020 - Present</small>
 					</h3>
+					<h5>Tradeling</h5>
 					<p>
 						<ul>
 							<li>
 								Designed and implemented a full-fledged back-office application architecture and code
 								that is highly scalable, available, maintainable, and performant
 								to provide data and functionality to support Tradeling customers,
-								configure orders, products, campaigns, promotions, tags, commissions, invoices, etc.
+								manage orders, review and approve products, set up campaigns, create promotions, configure tags,
+								manage commissions per user, generate invoices, manage customers information, backoffice user management.
 							</li>
 							<li>
 								Spearheaded implementation of Headless CMS a key tool for the business and marketing team
-								which provides a more friendly to use CMS interface that enables the team in their day-to-day tasks.
+								which provides a more friendly to use CMS interface that enables the team create and deploy web pages faster.
 							</li>
 							<li>
 								Built backend and frontend components for banners,
 								carousels, cards, etc.
-								Implemented google analytics tracking and impressions tracking for all banners to ensure that Tradeling
-								can accurately capture relevant data from users' interaction with the marketing banners and promotions
-								and ultimately improve the way Tradeling targets its customers.
+								Implemented google analytics tracking and impressions tracking for
+								all banners to accurately capture relevant data from users' interaction.
 							</li>
 							<li>
 								Wrote unit tests for all components and fixed major
-								and minor bugs that may hinder user satisfaction.
+								and minor bugs.
 							</li>
 							<li>
 								Reviewed code written by other developers to ensure that it
@@ -50,7 +51,7 @@ const Experience = () => {
 						<div className="tags">
 							<span className="tag-item">AWS</span>
 							<span className="tag-item">Docker</span>
-							<span className="tag-item">Jest</span>
+							<span className="tag-item">Git</span>
 							<span className="tag-item">REDIS</span>
 							<span className="tag-item">Microservices</span>
 							<span className="tag-item">TDD</span>
@@ -68,9 +69,11 @@ const Experience = () => {
 				</article>
 				<article className="flex-item">
 					<h3>
-						Software Developer (contractor) at IBM{" "}
+						Software Developer
 						<small className="date">Dec 2018 </small>
 					</h3>
+					<h5>IBM (contractor)</h5>
+
 					<p>
 						<ul>
 							<li>
@@ -124,9 +127,11 @@ const Experience = () => {
 			<div className="flex">
 				<article className="flex-item">
 					<h3>
-						Software Developer at Andela NG{" "}
+						Software Developer
 						<small className="date">Aug 2017</small>
 					</h3>
+					<h5>Andela Nigeria</h5>
+
 					<p>
 						<ul>
 							<li>
@@ -157,6 +162,7 @@ const Experience = () => {
 						<span className="tag-item">MongoDB</span>
 						<span className="tag-item">PostgresSQL</span>
 						<span className="tag-item">Webpack</span>
+						<span className="tag-item">CircleCI</span>
 						<span className="tag-item">Heroku</span>
 						<a
 							href="https://www.andela.com/"
@@ -169,9 +175,10 @@ const Experience = () => {
 				</article>
 				<article className="flex-item">
 					<h3>
-						EFT Specialist at Interswitch NG
+						Systems Engineer (Electronic Payment Solutions)
 						<small className="date">Jan 2016</small>
 					</h3>
+					<h5>Interswitch Nigeria</h5>
 					<p>
 						<ul>
 							<li>
@@ -204,7 +211,7 @@ const Experience = () => {
 							target="_blank"
 							className="tag-item"
 						>
-							<i className="mdi mdi-earth" /> interswitch.com
+							<i className="mdi mdi-earth" /> Interswitch.com
 						</a>
 					</div>
 				</article>

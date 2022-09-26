@@ -167,11 +167,13 @@ class Resume extends React.Component {
 					<section className="pitch">
 						<p>
 							Software engineer with 5 years of experience building scalable,
-							reliable and robust web applications currently based in Dubai,
+							reliable, and robust web applications currently based in Dubai,
 							working mostly with <strong>JavaScript</strong>;{" "}
-							<strong>ReactJS</strong> and{" "}
-							<strong>NodeJS</strong>. Professional with
-							exceptional work ethic with a solid understanding of practical programming concepts and routinely trusted to manage projects effectively,
+							<strong>ReactJS,</strong> and{" "}
+							<strong>NodeJS</strong>. I am a professional with
+							exceptional work ethic and a solid understanding of practical programming concepts. I love creating distributed systems, prototyping
+							with new technologies, and automating tedious tasks.
+							Routinely trusted to manage projects effectively,
 							facilitate technical decisions, and mentor junior developers.
 						</p>
 					</section>
