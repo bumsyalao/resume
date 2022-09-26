@@ -23,7 +23,7 @@ const Experience = () => {
 							</li>
 							<li>
 								Spearheaded implementation of Headless CMS a key tool for the business and marketing team
-								which provides a more friendly to use CMS interface that enables the team create and deploy web pages faster.
+								which provides a more friendly to use CMS interface that enables the team to create and deploy web pages faster.
 							</li>
 							<li>
 								Built backend and frontend components for banners,
@@ -37,8 +37,7 @@ const Experience = () => {
 							</li>
 							<li>
 								Reviewed code written by other developers to ensure that it
-								matches existing standards, it is clean, and will not affect the
-								the general performance of the application
+								matches existing standards and it is clean.
 							</li>
 						</ul>
 					</p>
