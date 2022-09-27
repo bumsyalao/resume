@@ -170,7 +170,7 @@ class Resume extends React.Component {
 							reliable, and robust web applications currently based in Dubai,
 							working mostly with <strong>JavaScript</strong>;{" "}
 							<strong>ReactJS,</strong> and{" "}
-							<strong>NodeJS</strong>. I am a professional with an
+							<strong>NodeJS</strong>. I am a professional with a growth mindset, an
 							exceptional work ethic and a solid understanding of practical programming concepts. I love creating distributed systems, prototyping
 							with new technologies, and automating tedious tasks.
 							Routinely trusted to manage projects effectively,
