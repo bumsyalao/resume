@@ -14,6 +14,7 @@ const Experience = () => {
 					<h5>Tradeling</h5>
 					<p>
 						<ul>
+							<li>Tradeling is the leading B2B E-commerce Marketplace in the MENA region with approximately 10k daily users.</li>
 							<li>
 								Designed and implemented a full-fledged back-office application architecture and code
 								that is highly scalable, available, maintainable, and performant
@@ -76,7 +77,7 @@ const Experience = () => {
 					<p>
 						<ul>
 							<li>
-								I worked on the TAMM Project here In Abu Dhabi. It is an
+								I worked on the TAMM Project In Abu Dhabi. It is an
 								impactful project aiming to revolutionise how citizens of Abu
 								Dhabi interact with government services.
 							</li>
@@ -133,6 +134,7 @@ const Experience = () => {
 
 					<p>
 						<ul>
+							<li>Andela is an organization that cultivates IT talent in Africa and provides leading global technology companies with access to a high-skilled resource pool.</li>
 							<li>
 								Developed an online publishing platform, where users can share
 								and manage articles.
@@ -143,6 +145,7 @@ const Experience = () => {
 							</li>
 							<li>Wrote numerous unit and API tests.</li>
 							<li>Contributed to Reaction commerce open source.</li>
+							<li>Participated in Andela coding Bootcamp and numerous hackertons</li>
 							<li>
 								Contributed to Cards For Humanity, a fast-paced online version
 								of the popular card game, Cards Against Humanity.
@@ -181,6 +184,11 @@ const Experience = () => {
 					<p>
 						<ul>
 							<li>
+								Interswitch is an Africa-focused integrated digital payments
+								facilitating the electronic circulation of money between individuals and organisations on a timely and consistent basis.
+								Responsible for continous delivery/continous deployment of payment across multiple sites of approximately 13million customers.
+							</li>
+							<li>
 								Full FEP Deployment, Upgrades, Maintenance & Support of core
 								banking systems (Postilion, Postcard, Postilion Office).
 							</li>
@@ -200,7 +208,7 @@ const Experience = () => {
 					</p>
 					<div className="tags" id="description-4">
 						<span className="tag-item">Postilion</span>
-						<span className="tag-item">Fintech</span>
+						<span className="tag-item">FinTech</span>
 						<span className="tag-item">Load balancing</span>
 						<span className="tag-item">System design</span>
 						<span className="tag-item">Electronic Funds Transfer</span>
