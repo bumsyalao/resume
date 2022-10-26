@@ -44,9 +44,10 @@ const Experience = () => {
 					<div className="tags" id="description-1">
 						<span className="tag-item">NodeJS</span>
 						<span className="tag-item">Typescript</span>
+						<span className="tag-item">React</span>
+						<span className="tag-item">NextJS</span>
 						<span className="tag-item">PostgresSQL</span>
 						<span className="tag-item">MongoDB</span>
-						<span className="tag-item">React</span>
 						<div className="tags">
 							<span className="tag-item">AWS</span>
 							<span className="tag-item">Docker</span>

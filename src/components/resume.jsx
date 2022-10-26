@@ -150,7 +150,7 @@ class Resume extends React.Component {
 						<span className="flex-item">
 							<a
 								className="contact-item"
-								href="https://medium.com/@alaobunmi93"
+								href="https://medium.com/@bumsyalao12"
 								target="_blank"
 							>
 								<i className="mdi mdi-newspaper" />
