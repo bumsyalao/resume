@@ -45,7 +45,7 @@
     "webpack-hot-middleware": "2.21.0"
   },
   "dependencies": {
-    "express": "4.16.2",
+    "express": "4.17.3",
     "material-components-web": "^6.0.0",
     "mdi": "2.1.19",
     "node-sass": "^6.0.1",
