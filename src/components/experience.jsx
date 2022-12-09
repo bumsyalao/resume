@@ -47,6 +47,7 @@ const Experience = () => {
 						<span className="tag-item">Typescript</span>
 						<span className="tag-item">React</span>
 						<span className="tag-item">NextJS</span>
+						<span className="tag-item">ExpressJS</span>
 						<span className="tag-item">PostgresSQL</span>
 						<span className="tag-item">MongoDB</span>
 						<div className="tags">
@@ -54,6 +55,8 @@ const Experience = () => {
 							<span className="tag-item">Docker</span>
 							<span className="tag-item">Git</span>
 							<span className="tag-item">REDIS</span>
+							<span className="tag-item">RabbitMQ</span>
+							<span className="tag-item">DDD</span>
 							<span className="tag-item">Microservices</span>
 							<span className="tag-item">TDD</span>
 						</div>
