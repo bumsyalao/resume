@@ -23,23 +23,19 @@ const Experience = () => {
 								manage commissions per user, generate invoices, manage customers information, backoffice user management.
 							</li>
 							<li>
-								Spearheaded implementation of Headless CMS a key tool for the business and marketing team
-								which provides a more friendly to use CMS interface that enables the team to create and deploy web pages faster.
-							</li>
-							<li>
-								Built backend and frontend components for banners,
+								Built backend and frontend web components for banners,
 								carousels, cards, etc.
 								Implemented google analytics tracking and impressions tracking for
 								all banners to accurately capture relevant data from users' interaction.
 							</li>
 							<li>
-								Wrote unit tests for all components and fixed major
-								and minor bugs.
+								Spearheaded implementation of Headless CMS a key tool for the business and marketing team
+								which provides a more friendly to use interface that enables the team to create and deploy web pages faster.
 							</li>
-							<li>
-								Reviewed code written by other developers to ensure that it
-								matches existing standards and it is clean.
-							</li>
+							<li>Worked with AWS services such as EC2, S3, and CloudFront</li>
+							<li>Implemented automated testing and deployment processes</li>
+							<li>Participated in code reviews and mentored junior developers</li>
+							<li>Troubleshooting and resolving major and minor bugs</li>
 						</ul>
 					</p>
 					<div className="tags" id="description-1">
@@ -53,10 +49,9 @@ const Experience = () => {
 						<div className="tags">
 							<span className="tag-item">AWS</span>
 							<span className="tag-item">Docker</span>
-							<span className="tag-item">Git</span>
-							<span className="tag-item">REDIS</span>
-							<span className="tag-item">RabbitMQ</span>
-							<span className="tag-item">DDD</span>
+							<span className="tag-item">CI/CD</span>
+							<span className="tag-item">HTML</span>
+							<span className="tag-item">CSS</span>
 							<span className="tag-item">Microservices</span>
 							<span className="tag-item">TDD</span>
 						</div>
@@ -81,25 +76,24 @@ const Experience = () => {
 					<p>
 						<ul>
 							<li>
-								I worked on the TAMM Project In Abu Dhabi. It is an
+								TAMM Project In Abu Dhabi is an
 								impactful project aiming to revolutionise how citizens of Abu
 								Dhabi interact with government services.
 							</li>
+							<li>Collaborated with cross-functional teams to deliver high-quality software</li>
 							<li>
 								Developed highly optimised frontend visualisation of investment
 								data using charts, graphs, interactive investment maps and
 								business calculators for potential business investors.
 							</li>
-							<li>Wrote numerous unit and API tests and fixed major and minor bugs that may hinder user satisfaction.</li>
-							<li>Pair programming and code reviews to ensure that it
-								matches existing standards, it is clean, and will not affect the
-								the general performance of the application
-							</li>
 							<li>
-								Handled API integrations, and also ensured cross-browser
+								Worked with RESTful APIs, integrated third-party services, and also ensured cross-browser
 								support, while following <strong>agile</strong> software
 								programming practices.
 							</li>
+							<li>Wrote numerous unit and API tests and fixed major and minor bugs that may hinder user satisfaction.</li>
+							<li>Receive and provide feedback in code reviews and pair programming, juggling concerns like robustness, maintainability,
+								development-speed, performance, security and architecture</li>
 						</ul>
 					</p>
 					<div className="tags" id="description-2">
@@ -145,7 +139,7 @@ const Experience = () => {
 							</li>
 							<li>
 								Developed a complex messaging web application, to enable
-								communication and collaboration amongst teams.
+								communication and collaboration amongst teams using Node.js, Express.js, and ReactJS.
 							</li>
 							<li>Wrote numerous unit and API tests.</li>
 							<li>Contributed to Reaction commerce open source.</li>
