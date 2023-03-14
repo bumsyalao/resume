@@ -35,7 +35,7 @@
     "css-loader": "0.28.8",
     "extract-text-webpack-plugin": "2.1.2",
     "file-loader": "1.1.6",
-    "html-pdf": "2.2.0",
+    "html-pdf": "3.0.1",
     "nodemon": "^1.19.4",
     "postcss-loader": "2.0.10",
     "sass-loader": "6.0.6",
