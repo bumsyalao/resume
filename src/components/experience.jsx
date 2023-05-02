@@ -44,7 +44,7 @@ const Experience = () => {
 						<span className="tag-item">React</span>
 						<span className="tag-item">NextJS</span>
 						<span className="tag-item">ExpressJS</span>
-						<span className="tag-item">PostgresSQL</span>
+						<span className="tag-item">PostgreSQL</span>
 						<span className="tag-item">MongoDB</span>
 						<div className="tags">
 							<span className="tag-item">AWS</span>
@@ -82,7 +82,7 @@ const Experience = () => {
 							</li>
 							<li>Collaborated with cross-functional teams to deliver high-quality software</li>
 							<li>
-								Developed highly optimised frontend visualisation of investment
+								Developed highly optimized frontend visualization of investment
 								data using charts, graphs, interactive investment maps and
 								business calculators for potential business investors.
 							</li>
@@ -101,7 +101,7 @@ const Experience = () => {
 						<span className="tag-item">Typescript</span>
 						<span className="tag-item">React</span>
 						<span className="tag-item">GraphQL</span>
-						<span className="tag-item">PostgresSQL</span>
+						<span className="tag-item">PostgreSQL</span>
 						<div className="tags">
 							<span className="tag-item">SCSS</span>
 							<span className="tag-item">TDD</span>
@@ -132,7 +132,7 @@ const Experience = () => {
 
 					<p>
 						<ul>
-							<li>Andela is an organization that cultivates IT talent in Africa and provides leading global technology companies with access to a high-skilled resource pool.</li>
+							<li>Andela is an organisation that cultivates IT talent in Africa and provides leading global technology companies with access to a high-skilled resource pool.</li>
 							<li>
 								Developed an online publishing platform, where users can share
 								and manage articles.
@@ -143,7 +143,7 @@ const Experience = () => {
 							</li>
 							<li>Wrote numerous unit and API tests.</li>
 							<li>Contributed to Reaction commerce open source.</li>
-							<li>Participated in Andela coding Bootcamp and numerous hackertons</li>
+							<li>Participated in Andela coding bootcamp and numerous hackertons</li>
 							<li>
 								Contributed to Cards For Humanity, a fast-paced online version
 								of the popular card game, Cards Against Humanity.
@@ -160,7 +160,7 @@ const Experience = () => {
 					</div>
 					<div className="tags" id="description-3">
 						<span className="tag-item">MongoDB</span>
-						<span className="tag-item">PostgresSQL</span>
+						<span className="tag-item">PostgreSQL</span>
 						<span className="tag-item">Webpack</span>
 						<span className="tag-item">CircleCI</span>
 						<span className="tag-item">Heroku</span>
@@ -183,7 +183,7 @@ const Experience = () => {
 						<ul>
 							<li>
 								Interswitch is an Africa-focused integrated digital payments
-								facilitating the electronic circulation of money between individuals and organisations on a timely and consistent basis.
+								facilitating the electronic circulation of money between individuals and organizations on a timely and consistent basis.
 								Responsible for continous delivery/continous deployment of payment across multiple sites of approximately 13million customers.
 							</li>
 							<li>
