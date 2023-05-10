@@ -24,7 +24,7 @@ const Experience = () => {
 							</li>
 							<li>
 								Built backend and frontend web components for banners,
-								carousels, cards, etc. Optimize performance of the frontent application by
+								carousels, cards, etc. Optimize performance of the frontend application by
 								improving database design, reducing API response time, and minimizing server load.
 								Implemented analytics tracking and impressions tracking for
 								all banners to accurately capture relevant data from users' interaction.
@@ -96,7 +96,7 @@ const Experience = () => {
 								Developed highly optimized frontend visualization of investment
 								data using charts, graphs, interactive investment maps.
 							</li>
-							<li>Optimize performance of the frontent application by
+							<li>Optimize performance of the frontend application by
 								improving database design, reducing API response time, and minimizing server load.</li>
 							<li>Worked closely with designers, product owners and product managers to prioritize the most relevant features.</li>
 							<li>
