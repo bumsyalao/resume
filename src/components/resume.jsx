@@ -166,15 +166,18 @@ class Resume extends React.Component {
 					</section>
 					<section className="pitch">
 						<p>
-							Software engineer with 5 years of experience building scalable,
-							reliable, and robust web applications currently based in Dubai,
-							working mostly with <strong>JavaScript</strong>;{" "}
-							<strong>ReactJS,</strong> and{" "}
-							<strong>NodeJS</strong>. I am a professional with a growth mindset, an
-							exceptional work ethic and a solid understanding of practical programming concepts. I love creating distributed systems, prototyping
-							with new technologies, and automating tedious tasks.
-							Routinely trusted to manage projects effectively,
-							facilitate technical decisions, and mentor junior developers.
+							I am an experienced software engineer with  6 years of hands-on experience building
+							highly performant and scalable web applications. I have a solid understanding of practical
+							programming concepts and design patterns, with expertise in JavaScript, ReactJS, NodeJS,
+							TypeScript, SQL, and NoSQL databases. My experience includes developing self-contained,
+							reusable modules and components using ReactJS, architecting and automating build processes,
+							and monitoring and improving front-end performance.
+							I have excellent knowledge of RESTful APIs using NodeJS and CI/CD principles.
+							I have experience in Docker and Kubernetes, API gateway integrations like 3Scale, task/message queues such as
+							AWS SQS, Pushpin, RabbitMQ, and Kafka. I possess strong knowledge of Single-Sign-on or token-based authentication.
+							I am highly skilled in writing tested, idiomatic, and documented JavaScript, HTML5, CSS, and state management tools like Redux, Context API, and data structures.
+							I love creating distributed systems, prototyping with new technologies, and automating tedious tasks.
+							Routinely trusted to manage projects effectively, facilitate technical decisions, and mentor junior developers.
 						</p>
 					</section>
 					<Experience />

@@ -24,18 +24,24 @@ const Experience = () => {
 							</li>
 							<li>
 								Built backend and frontend web components for banners,
-								carousels, cards, etc.
-								Implemented google analytics tracking and impressions tracking for
+								carousels, cards, etc. Optimize performance of the frontent application by
+								improving database design, reducing API response time, and minimizing server load.
+								Implemented analytics tracking and impressions tracking for
 								all banners to accurately capture relevant data from users' interaction.
 							</li>
 							<li>
-								Spearheaded implementation of Headless CMS a key tool for the business and marketing team
+								Handle Migrations from non-relational MongoDB to relational PostgreSQL Database.
+							</li>
+							<li>
+								Spearheaded implementation of Headless CMS, Strapi, a key tool for the business and marketing team
 								which provides a more friendly to use interface that enables the team to create and deploy web pages faster.
 							</li>
-							<li>Worked with AWS services such as EC2, S3, and CloudFront</li>
-							<li>Implemented automated testing and deployment processes</li>
-							<li>Participated in code reviews and mentored junior developers</li>
-							<li>Troubleshooting and resolving major and minor bugs</li>
+							<li>Worked with AWS services such as EC2, S3, and CloudFront.</li>
+							<li>Implemented automated testing and deployment processes.</li>
+							<li>Onboarding and mentoring junior developers.</li>
+							<li>Review code developed by other developers and provide feedback to ensure best practices.</li>
+							<li>Write documentation.</li>
+							<li>Troubleshooting and resolving major and minor bugs.</li>
 						</ul>
 					</p>
 					<div className="tags" id="description-1">
@@ -43,16 +49,17 @@ const Experience = () => {
 						<span className="tag-item">Typescript</span>
 						<span className="tag-item">React</span>
 						<span className="tag-item">NextJS</span>
-						<span className="tag-item">ExpressJS</span>
+						<span className="tag-item">Redux/Context API</span>
 						<span className="tag-item">PostgreSQL</span>
-						<span className="tag-item">MongoDB</span>
 						<div className="tags">
+							<span className="tag-item">MongoDB</span>
 							<span className="tag-item">AWS</span>
 							<span className="tag-item">Docker</span>
 							<span className="tag-item">CI/CD</span>
 							<span className="tag-item">HTML</span>
 							<span className="tag-item">CSS</span>
 							<span className="tag-item">Microservices</span>
+							<span className="tag-item">Kubernetes</span>
 							<span className="tag-item">TDD</span>
 						</div>
 						<div className="tags">
@@ -80,20 +87,25 @@ const Experience = () => {
 								impactful project aiming to revolutionise how citizens of Abu
 								Dhabi interact with government services.
 							</li>
-							<li>Collaborated with cross-functional teams to deliver high-quality software</li>
+							<li>Collaborated with cross-functional teams to deliver high-quality software.</li>
+							<li>Built a powerful business calculators for potential business investors.
+								Integrate multiple API to provide estimate calculations.</li>
+							<li>Integrate third-party tools and middleware, as well as internally developed applications for
+								web browsers and mobile devices by building responsive web application UIs.</li>
 							<li>
 								Developed highly optimized frontend visualization of investment
-								data using charts, graphs, interactive investment maps and
-								business calculators for potential business investors.
+								data using charts, graphs, interactive investment maps.
 							</li>
+							<li>Optimize performance of the frontent application by
+								improving database design, reducing API response time, and minimizing server load.</li>
+							<li>Worked closely with designers, product owners and product managers to prioritize the most relevant features.</li>
 							<li>
-								Worked with RESTful APIs, integrated third-party services, and also ensured cross-browser
-								support, while following <strong>agile</strong> software
-								programming practices.
+								Iintegrate testing processes, design strategies, writing test cases and incorporating automated tests into CI / CD pipeline.
 							</li>
-							<li>Wrote numerous unit and API tests and fixed major and minor bugs that may hinder user satisfaction.</li>
+							<li>Implement security measures to protect data and user privacy.</li>
+							<li>Fixed major and minor bugs that may hinder user satisfaction.</li>
 							<li>Receive and provide feedback in code reviews and pair programming, juggling concerns like robustness, maintainability,
-								development-speed, performance, security and architecture</li>
+								development-speed, performance, security and architecture.</li>
 						</ul>
 					</p>
 					<div className="tags" id="description-2">
@@ -107,6 +119,7 @@ const Experience = () => {
 							<span className="tag-item">TDD</span>
 							<span className="tag-item">Jest</span>
 							<span className="tag-item">Agile</span>
+							<span className="tag-item">Serverless</span>
 							<span className="tag-item">Distributed Systems</span>
 							<span className="tag-item">Esri Maps</span>
 						</div>
@@ -137,13 +150,14 @@ const Experience = () => {
 								Developed an online publishing platform, where users can share
 								and manage articles.
 							</li>
+							<li>Collaborating with remote teams across different time zones.</li>
 							<li>
 								Developed a complex messaging web application, to enable
 								communication and collaboration amongst teams using Node.js, Express.js, and ReactJS.
 							</li>
 							<li>Wrote numerous unit and API tests.</li>
 							<li>Contributed to Reaction commerce open source.</li>
-							<li>Participated in Andela coding bootcamp and numerous hackertons</li>
+							<li>Participated in Andela coding bootcamp and numerous hackertons.</li>
 							<li>
 								Contributed to Cards For Humanity, a fast-paced online version
 								of the popular card game, Cards Against Humanity.
@@ -200,7 +214,7 @@ const Experience = () => {
 							</li>
 							<li>
 								Installing, managing, upgrading and administering Microsoft SQL
-								databases
+								databases.
 							</li>
 						</ul>
 					</p>
