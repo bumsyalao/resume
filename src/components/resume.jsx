@@ -166,18 +166,13 @@ class Resume extends React.Component {
 					</section>
 					<section className="pitch">
 						<p>
-							I am an experienced software engineer with  6 years of hands-on experience building
-							highly performant and scalable web applications. I have a solid understanding of practical
-							programming concepts and design patterns, with expertise in JavaScript, ReactJS, NodeJS,
-							TypeScript, SQL, and NoSQL databases. My experience includes developing self-contained,
-							reusable modules and components using ReactJS, architecting and automating build processes,
-							and monitoring and improving front-end performance.
-							I have excellent knowledge of RESTful APIs using NodeJS and CI/CD principles.
-							I have experience in Docker and Kubernetes, API gateway integrations like 3Scale, task/message queues such as
-							AWS SQS, Pushpin, RabbitMQ, and Kafka. I possess strong knowledge of Single-Sign-on or token-based authentication.
-							I am highly skilled in writing tested, idiomatic, and documented JavaScript, HTML5, CSS, and state management tools like Redux, Context API, and data structures.
-							I love creating distributed systems, prototyping with new technologies, and automating tedious tasks.
-							Routinely trusted to manage projects effectively, facilitate technical decisions, and mentor junior developers.
+							Experienced software engineer with 6+ years of hands-on experience in crafting scalable,
+							high-performance web applications. Skilled in JavaScript, ReactJS, NodeJS, TypeScript, SQL,
+							and NoSQL databases. Expertise in architecting reusable modules, automating builds, and optimizing
+							front-end performance. Proficient in RESTful APIs, CI/CD, Docker, Kubernetes, Microservices, Task/messaging queues, and API integrations.
+							Strong background in authentication, tested JavaScript, HTML5, CSS, and state management tools.
+							Thrives on creating distributed systems, pioneering new tech, and streamlining tasks.
+							Recognized for project management, technical leadership, and mentorship.
 						</p>
 					</section>
 					<Experience />

@@ -16,32 +16,34 @@ const Experience = () => {
 						<ul>
 							<li>Tradeling is the leading B2B E-commerce Marketplace in the MENA region with approximately 10k daily users.</li>
 							<li>
-								Designed and implemented a full-fledged back-office application architecture and code
-								that is highly scalable, available, maintainable, and performant
-								to provide data and functionality to support Tradeling customers,
-								manage orders, review and approve products, set up campaigns, create promotions, configure tags,
-								manage commissions per user, generate invoices, manage customers information, backoffice user management.
+								Accomplished the design and implementation of a highly scalable, maintainable, and performant back-office application
+								architecture and code that provided data and functionality to support Tradeling customers, manage orders, review and
+								approve products, set up campaigns, create promotions, configure tags, manage commissions per user, generate invoices,
+								and perform back-office user management, as measured by its successful use in enhancing
+								operational efficiency and customer satisfaction.
+							</li>
+							<li> Developed frontend web components such as banners, carousels, and cards. Improved the performance of the frontend
+								application by optimizing the database design, reducing API response time, and minimizing server load. This led to a
+								substantial enhancement in page load speed and user experience. Implemented analytics and impressions tracking for all
+								banners to collect accurate user interaction data and help guide optimization strategies.
 							</li>
 							<li>
-								Built backend and frontend web components for banners,
-								carousels, cards, etc. Optimize performance of the frontend application by
-								improving database design, reducing API response time, and minimizing server load.
-								Implemented analytics tracking and impressions tracking for
-								all banners to accurately capture relevant data from users' interaction.
+								Successfully executed migrations from non-relational MongoDB to relational PostgreSQL database,
+								ensured the seamless transfer of data and maintenance of data integrity.
 							</li>
 							<li>
-								Handle Migrations from non-relational MongoDB to relational PostgreSQL Database.
+								Led the implementation of Headless CMS, Strapi, as a key tool for the business and marketing team,
+								providing a more user-friendly interface that facilitates the creation and deployment of web pages in a faster and more efficient manner.
 							</li>
+							<li>Managed AWS services including EC2, S3, CloudFront, and other cloud services to effectively host,
+								scale and maintain the application, ensuring a highly available and reliable platform.</li>
 							<li>
-								Spearheaded implementation of Headless CMS, Strapi, a key tool for the business and marketing team
-								which provides a more friendly to use interface that enables the team to create and deploy web pages faster.
-							</li>
-							<li>Worked with AWS services such as EC2, S3, and CloudFront.</li>
-							<li>Implemented automated testing and deployment processes.</li>
-							<li>Onboarding and mentoring junior developers.</li>
-							<li>Review code developed by other developers and provide feedback to ensure best practices.</li>
-							<li>Write documentation.</li>
-							<li>Troubleshooting and resolving major and minor bugs.</li>
+								Established automated testing and deployment processes, resulting in increased efficiency,
+								faster turnaround times, and improved overall software quality.</li>
+							<li>Provided guidance and mentorship to junior developers during onboarding, fostering a collaborative and supportive
+								team environment while ensuring successful integration and professional growth for new team members.</li>
+							<li>Conducted thorough code reviews for fellow developers, offering constructive feedback and guidance
+								to promote adherence to best practices and maintain high code quality standards.</li>
 						</ul>
 					</p>
 					<div className="tags" id="description-1">
@@ -52,7 +54,6 @@ const Experience = () => {
 						<span className="tag-item">Redux/Context API</span>
 						<span className="tag-item">PostgreSQL</span>
 						<div className="tags">
-							<span className="tag-item">MongoDB</span>
 							<span className="tag-item">AWS</span>
 							<span className="tag-item">Docker</span>
 							<span className="tag-item">CI/CD</span>
@@ -87,25 +88,31 @@ const Experience = () => {
 								impactful project aiming to revolutionise how citizens of Abu
 								Dhabi interact with government services.
 							</li>
-							<li>Collaborated with cross-functional teams to deliver high-quality software.</li>
-							<li>Built a powerful business calculators for potential business investors.
-								Integrate multiple API to provide estimate calculations.</li>
-							<li>Integrate third-party tools and middleware, as well as internally developed applications for
-								web browsers and mobile devices by building responsive web application UIs.</li>
+							<li>Worked closely with teams from different departments to ensure timely delivery
+								of software products that meet quality standards.</li>
 							<li>
-								Developed highly optimized frontend visualization of investment
-								data using charts, graphs, interactive investment maps.
-							</li>
-							<li>Optimize performance of the frontend application by
-								improving database design, reducing API response time, and minimizing server load.</li>
-							<li>Worked closely with designers, product owners and product managers to prioritize the most relevant features.</li>
+								Developed robust business calculators for prospective investors, integrating multiple APIs to provide accurate estimate calculations.</li>
+							<li>Incorporated third-party tools and middleware, as well as internally developed applications for web
+								browsers and mobile devices by building responsive web application UIs to enhance user experience and increase accessibility.</li>
 							<li>
-								Iintegrate testing processes, design strategies, writing test cases and incorporating automated tests into CI / CD pipeline.
+								Created an optimized frontend visualization of investment data by using charts,
+								graphs, and interactive maps, giving users multiple options to view data based
+								on their preferences and enabling them to make informed business decisions.</li>
+							<li>
+								Improved the frontend application's performance by optimizing database design, reducing API response time, and minimizing server load.</li>
+							<li>
+								Implemented testing processes, designed strategies, wrote test cases and incorporated automated tests
+								into CI/CD pipeline to ensure the efficiency, fault tolerance, reliability, and high availability
+								of the system, and to facilitate easy collaboration among team members.
 							</li>
-							<li>Implement security measures to protect data and user privacy.</li>
-							<li>Fixed major and minor bugs that may hinder user satisfaction.</li>
-							<li>Receive and provide feedback in code reviews and pair programming, juggling concerns like robustness, maintainability,
-								development-speed, performance, security and architecture.</li>
+							<li>Created comprehensive documentation for project components, including technical specifications, user manuals,
+								and API references, to ensure clear understanding and ease of use for both technical and non-technical audiences.</li>
+							<li>
+								Implemented robust security measures to safeguard sensitive data and ensure the privacy of users.</li>
+							<li>Resolved major and minor bugs in the codebase to enhance user satisfaction, improve application performance,
+								and mitigate potential vulnerabilities.</li>
+							<li>Collaborate with team members in code reviews and pair programming, addressing concerns related to
+								robustness, maintainability, development speed, performance, security, and architecture to improve the quality of the codebase.</li>
 						</ul>
 					</p>
 					<div className="tags" id="description-2">
@@ -114,6 +121,8 @@ const Experience = () => {
 						<span className="tag-item">React</span>
 						<span className="tag-item">GraphQL</span>
 						<span className="tag-item">PostgreSQL</span>
+						<span className="tag-item">MongoDB</span>
+
 						<div className="tags">
 							<span className="tag-item">SCSS</span>
 							<span className="tag-item">TDD</span>
@@ -145,22 +154,25 @@ const Experience = () => {
 
 					<p>
 						<ul>
-							<li>Andela is an organisation that cultivates IT talent in Africa and provides leading global technology companies with access to a high-skilled resource pool.</li>
+							<li>Andela is an organisation that cultivates IT talent in Africa and provides leading
+								global technology companies with access to a high-skilled resource pool.</li>
 							<li>
-								Developed an online publishing platform, where users can share
-								and manage articles.
+								Created an online publishing platform that enables users to publish, share, and manage their articles with ease.
 							</li>
-							<li>Collaborating with remote teams across different time zones.</li>
 							<li>
-								Developed a complex messaging web application, to enable
-								communication and collaboration amongst teams using Node.js, Express.js, and ReactJS.
+								Collaborated effectively with remote teams located across various time zones to ensure seamless
+								communication, efficient workflow, and timely project completion.</li>
+							<li>
+								Developed a messaging web application to facilitate communication and collaboration among teams.
+								The application features complex functionalities and is optimized for performance and scalability.
 							</li>
-							<li>Wrote numerous unit and API tests.</li>
-							<li>Contributed to Reaction commerce open source.</li>
-							<li>Participated in Andela coding bootcamp and numerous hackertons.</li>
+							<li>Made significant contributions to the open-source project Reaction Commerce,
+								including fixing bugs, and improving documentation.</li>
 							<li>
-								Contributed to Cards For Humanity, a fast-paced online version
-								of the popular card game, Cards Against Humanity.
+								Took part in Andela coding boot camp and multiple hackathons to sharpen coding skills
+								and gain hands-on experience in developing innovative solutions.</li>
+							<li>
+								Contributed to the development of Cards For Humanity, an online version of the popular card game, Cards Against Humanity.
 							</li>
 						</ul>
 					</p>
@@ -198,23 +210,22 @@ const Experience = () => {
 							<li>
 								Interswitch is an Africa-focused integrated digital payments
 								facilitating the electronic circulation of money between individuals and organizations on a timely and consistent basis.
-								Responsible for continous delivery/continous deployment of payment across multiple sites of approximately 13million customers.
+							</li>
+							<li>Spearheaded continuous delivery and deployment of payments across multiple sites, serving approximately 13 million customers.</li>
+							<li>
+								Led full FEP Deployment, Upgrades, Maintenance & Support of core
+								banking systems like Postilion, Postcard, Postilion Office.
+							</li>
+							<li>Managed the successful deployment of Hardware Security Modules (HSM), ensuring robust security measures.</li>
+							<li>
+								Played a pivotal role in channel enhancement and certification, including ATM, POS, WEB, and Mobile,
+								ensuring compliance with industry standards such as EMV certification.
 							</li>
 							<li>
-								Full FEP Deployment, Upgrades, Maintenance & Support of core
-								banking systems (Postilion, Postcard, Postilion Office).
-							</li>
-							<li>HSM (Hardware Security Module) Deployment.</li>
-							<li>
-								Channel Enhancement & Certification (ATM, POS, WEB, and Mobile).
+								Orchestrated seamless integration with external systems, parties, and networks, including processors and switches like MasterCard, VISA, and VERVE.
 							</li>
 							<li>
-								Integration of external systems and networks. Examples:
-								Integration to Processors/Switches (MasterCard, VISA, VERVE).
-							</li>
-							<li>
-								Installing, managing, upgrading and administering Microsoft SQL
-								databases.
+								Exhibited expertise in installing, managing, upgrading, and administering Microsoft SQL databases.
 							</li>
 						</ul>
 					</p>
