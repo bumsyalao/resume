@@ -53,14 +53,22 @@ const Experience = () => {
 						<span className="tag-item">NextJS</span>
 						<span className="tag-item">Redux/Context API</span>
 						<span className="tag-item">PostgreSQL</span>
+
 						<div className="tags">
 							<span className="tag-item">AWS</span>
 							<span className="tag-item">Docker</span>
 							<span className="tag-item">CI/CD</span>
 							<span className="tag-item">HTML</span>
-							<span className="tag-item">CSS</span>
+							<span className="tag-item">CSS/TailwindCSS</span>
 							<span className="tag-item">Microservices</span>
+
+						</div>
+						<div className="tags">
+							<span className="tag-item">Redis</span>
+							<span className="tag-item">DynamoDB</span>
+							<span className="tag-item">WebSocket</span>
 							<span className="tag-item">Kubernetes</span>
+							<span className="tag-item">System design</span>
 							<span className="tag-item">TDD</span>
 						</div>
 						<div className="tags">
