@@ -19,7 +19,7 @@ const Experience = () => {
 								Accomplished the design and implementation of a highly scalable, maintainable, and performant back-office application
 								architecture and code that provided data and functionality to support Tradeling customers, manage orders, review and
 								approve products, set up campaigns, create promotions, configure tags, manage commissions per user, generate invoices,
-								and perform back-office user management, as measured by its successful use in enhancing
+								and perform back-office user management, as measured by it's successful use in enhancing
 								operational efficiency and customer satisfaction.
 							</li>
 							<li> Developed frontend web components such as banners, carousels, and cards. Improved the performance of the frontend
