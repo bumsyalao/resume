@@ -71,6 +71,7 @@ const Experience = () => {
 							<span className="tag-item">System design</span>
 							<span className="tag-item">TDD</span>
 						</div>
+
 						<div className="tags">
 							<a
 								href="https://www.tradeling.com/"
