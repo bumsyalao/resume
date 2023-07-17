@@ -61,7 +61,6 @@ const Experience = () => {
 							<span className="tag-item">HTML</span>
 							<span className="tag-item">CSS/TailwindCSS</span>
 							<span className="tag-item">Microservices</span>
-
 						</div>
 						<div className="tags">
 							<span className="tag-item">Redis</span>
