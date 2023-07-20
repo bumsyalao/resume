@@ -8,7 +8,7 @@ const config = {
 	type: "pdf",
 	format: "A4",
 	renderDelay: 1000,
-	height: "2800px",
+	height: "2900px",
 	width: "1420px",
 	orientation: "portrait",
 };
