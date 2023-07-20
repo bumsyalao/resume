@@ -110,11 +110,11 @@ class Resume extends React.Component {
 						<span className="flex-item">
 							<a
 								className="contact-item"
-								href="https://bumsyalao.github.io/bumsyalao.me/"
+								href="https://master.d1swm8gje57dpg.amplifyapp.com"
 								target="_blank"
 							>
 								<i className="mdi mdi-earth" />
-								&nbsp;http://bumsyalao.me/
+								&nbsp;http://bumsyalao.dev/
 							</a>
 						</span>
 						<span className="flex-item">
