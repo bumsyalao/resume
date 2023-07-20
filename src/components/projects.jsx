@@ -8,9 +8,38 @@ const Projects = () => {
 			<div className="flex">
 				<article className="flex-item">
 					<h3>
+						Location Intelligence System <small className="date">2023</small>
+					</h3>
+					<p>This project is a Location Intelligence System that allows users to track and manage vehicle locations.
+						It includes a web-based user interface for interaction and a back-end API for data storage and retrieval.
+						The system utilizes Typescript, React for the front-end development, Node.js and Express for the back-end API, and MongoDB as the database management system. It also integrates with Google Maps Developer APIs for displaying vehicle locations on a map.</p>
+					<div className="tags">
+						<span className="tag-item">NodeJS</span>
+						<span className="tag-item">React</span>
+						<span className="tag-item">Typescript</span>
+						<span className="tag-item">Redux</span>
+						<span className="tag-item">SCSS</span>
+						<span className="tag-item">GoogleAPIs</span>
+						<span className="tag-item">MongoDB</span>
+						<span className="tag-item">AWS</span>
+						<span className="tag-item">Heroku</span>
+						<span className="tag-item">Javascript ES6</span>
+						<a
+							href="https://main.d22pspoa1d4aei.amplifyapp.com/"
+							target="_blank"
+							className="tag-item"
+						>
+							<i className="mdi mdi-earth" /> Location Intelligence System
+						</a>
+					</div>
+				</article>
+				<article className="flex-item">
+					<h3>
 						Github Searcher <small className="date">2020</small>
 					</h3>
-					<p>Search through github users and repository.</p>
+					<p>This project allows users to search through github users and repository.
+						It includes a web-based user interface for interaction and a back-end API for data storage and retrieval.
+						The system utilizes Typescript, React for the front-end development, Node.js and Express for the back-end API, and Redis for caching API request to Github.</p>
 					<div className="tags">
 						<span className="tag-item">NodeJS</span>
 						<span className="tag-item">React</span>
@@ -19,6 +48,7 @@ const Projects = () => {
 						<span className="tag-item">SCSS</span>
 						<span className="tag-item">Redis</span>
 						<span className="tag-item">Mongoose</span>
+						<span className="tag-item">GithubAPI</span>
 						<span className="tag-item">Javascript ES6</span>
 						<a
 							href="https://github.com/bumsyalao/github-searcher"
@@ -26,28 +56,6 @@ const Projects = () => {
 							className="tag-item"
 						>
 							<i className="mdi mdi-earth" /> Github-sercher
-						</a>
-					</div>
-				</article>
-				<article className="flex-item">
-					<h3>
-						The-Consent-Game <small className="date">2019</small>
-					</h3>
-					<p>
-						The consent game is built for The Consent Workshop, to teach young
-						adults about consent.
-					</p>
-					<div className="tags">
-						<span className="tag-item">React</span>
-						<span className="tag-item">Redux</span>
-						<span className="tag-item">SCSS</span>
-						<span className="tag-item">Javascript ES6</span>
-						<a
-							href="https://the-consent-game.herokuapp.com/"
-							target="_blank"
-							className="tag-item"
-						>
-							<i className="mdi mdi-earth" /> The-Consent-Game
 						</a>
 					</div>
 				</article>
