@@ -33,7 +33,7 @@ const Awards = () => {
 				</article> */}
 				<article className="flex-item">
 					<h3>
-						Postilion Basic Traning <small className="date">2016</small>
+						Postilion Basic Training <small className="date">2016</small>
 					</h3>
 					<p><a href="https://www.linkedin.com/company/5063/" target="_blank">ACI worldwide </a></p>
 				</article>
