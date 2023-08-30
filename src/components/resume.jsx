@@ -76,11 +76,10 @@ class Resume extends React.Component {
 									className="name-link"
 									href="https://bumsyalao.github.io/resume/"
 								>
-									Ruth Alao
+									Bunmi Alao
 								</a>
 							</span>
-
-							{/* <p className="translation-text">/buːmi/</p>
+							<p className="translation-text">/buːmi/</p>
 							<button className="translation-btn" onClick={this.onPlay}>
 								<audio ref={this.myRef} id="myAudio">
 									<source
@@ -94,13 +93,13 @@ class Resume extends React.Component {
 									Your browser does not support the audio element.
 								</audio>
 								<span className="material-icons">volume_up</span>
-							</button> */}
+							</button>
 						</div>
 						<div className="flex-item">
 							<a
 								className="download-btn"
 								href="./resume.pdf"
-								download="Ruth_Alao_Resume.pdf"
+								download="Bunmi_Alao_Resume.pdf"
 							>
 								<i className="mdi mdi-file-pdf" /> Download PDF
 							</a>
