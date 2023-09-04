@@ -25,7 +25,7 @@ const Projects = () => {
 						<span className="tag-item">Heroku</span>
 						<span className="tag-item">Javascript ES6</span>
 						<a
-							href="https://main.d22pspoa1d4aei.amplifyapp.com/"
+							href="https://github.com/bumsyalao/location-intelligence-system"
 							target="_blank"
 							className="tag-item"
 						>
