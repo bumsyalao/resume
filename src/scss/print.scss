@@ -15,6 +15,17 @@
 		display: none;
 	}
 
+	.flex-item {
+		h5 {
+			.language {
+				position: absolute !important;
+				right: 0 !important;
+				float: right !important;
+			}
+		}
+	}
+
+
 	.date {
 		position: absolute;
 		right: 0;

@@ -76,7 +76,7 @@ class Resume extends React.Component {
 									className="name-link"
 									href="https://bumsyalao.github.io/resume/"
 								>
-									Bunmi Alao
+									Ruth Alao
 								</a>
 							</span>
 							<p className="translation-text">/buːmi/</p>

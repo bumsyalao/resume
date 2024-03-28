@@ -9,9 +9,67 @@ const Experience = () => {
 				<article className="flex-item">
 					<h3>
 						Senior Fullstack Engineer
-						<small className="date">Sept 2020 - Present</small>
+						<small className="date">Oct 2023 - Present</small>
 					</h3>
-					<h5>Tradeling</h5>
+					<h5>MAGNiTT <span className="tag-item">Working Language: English</span></h5>
+					<p>
+						<ul>
+
+							<li>Spearheaded the redesign of the investors' profiles at MAGNiTT, employing a strategic approach to enhance user experience and drive stakeholder engagement. The revamped interface led to a 30% increase in user retention and a 25% rise in investment inquiries, underscoring its significant impact on attracting and retaining key stakeholders.</li>
+							<li> Implemented Sentry monitoring tool into the project infrastructure, enhancing system reliability and enabling proactive issue detection and resolution. This integration resulted in a 20% reduction in system downtime and improved overall platform stability.</li>
+							<li>Developed and implemented various features aimed at improving the application's functionality and user experience. These enhancements contributed to a 15% increase in user satisfaction ratings and a 10% boost in user engagement metrics.</li>
+							<li>Led end-to-end feature development cycles, from project management to QA testing, ensuring seamless integration of new features into the application. This comprehensive approach resulted in a reduction deployment time and improved overall project efficiency.</li>
+							<li>Managed AWS services, including EC2, S3, and CloudFront, to host, scale, and maintain the application effectively. This proactive management approach ensured a highly available and reliable platform, resulting in an increase in system uptime and improved overall platform performance.</li>
+							<li>Introduced automated testing and deployment processes, streamlining development workflows and accelerating feature delivery. These automation initiatives led to a 30% reduction in deployment errors and an increase in development velocity, ultimately improving overall software quality and time-to-market.</li>
+							<li>Provided guidance and mentorship to junior developers, fostering a collaborative and supportive team environment. This mentorship resulted in accelerated onboarding processes and enhanced professional growth opportunities for new team members, contributing to overall team cohesion and productivity.</li>
+							<li>Conducted thorough code reviews for fellow developers, offering constructive feedback and guidance to promote adherence to best practices and maintain high code quality standards. These reviews led to a reduction in code defects and improved overall code maintainability, ensuring the long-term stability and scalability of the application.</li>
+						</ul>
+
+					</p>
+					<div className="tags" id="description-1">
+						<span className="tag-item">NodeJS</span>
+						<span className="tag-item">ExpressJS</span>
+						<span className="tag-item">Typescript</span>
+						<span className="tag-item">React</span>
+						<span className="tag-item">NextJS</span>
+						<span className="tag-item">Redux/Context API</span>
+
+						<div className="tags">
+							<span className="tag-item">NestJS</span>
+							<span className="tag-item">AWS</span>
+							<span className="tag-item">Docker</span>
+							<span className="tag-item">CI/CD</span>
+							<span className="tag-item">HTML</span>
+							<span className="tag-item">CSS/TailwindCSS</span>
+							<span className="tag-item">MySQL</span>
+
+						</div>
+						<div className="tags">
+							<span className="tag-item">Redis</span>
+							<span className="tag-item">Microservices</span>
+							<span className="tag-item">WebSocket</span>
+							<span className="tag-item">Kubernetes</span>
+							<span className="tag-item">System design</span>
+							<span className="tag-item">TDD</span>
+						</div>
+
+						<div className="tags">
+							<a
+								href="https://magnitt.com/"
+								target="_blank"
+								className="tag-item"
+							>
+								<i className="mdi mdi-earth" /> MAGNiTT
+							</a>
+						</div>
+					</div>
+				</article>
+				<article className="flex-item">
+					<h3>
+						Senior Fullstack Engineer
+						<small className="date">Sept 2020 - Aug 2022</small>
+					</h3>
+					<h5>Tradeling <span className="tag-item">Working Language: English</span></h5>
 					<p>
 						<ul>
 							<li>Tradeling is the leading B2B E-commerce Marketplace in the MENA region with approximately 10k daily users.</li>
@@ -45,14 +103,15 @@ const Experience = () => {
 							<li>Conducted thorough code reviews for fellow developers, offering constructive feedback and guidance
 								to promote adherence to best practices and maintain high code quality standards.</li>
 						</ul>
+
 					</p>
 					<div className="tags" id="description-1">
 						<span className="tag-item">NodeJS</span>
+						<span className="tag-item">ExpressJS</span>
 						<span className="tag-item">Typescript</span>
 						<span className="tag-item">React</span>
 						<span className="tag-item">NextJS</span>
 						<span className="tag-item">Redux/Context API</span>
-						<span className="tag-item">PostgreSQL</span>
 
 						<div className="tags">
 							<span className="tag-item">NestJS</span>
@@ -65,9 +124,9 @@ const Experience = () => {
 
 						</div>
 						<div className="tags">
+							<span className="tag-item">PostgreSQL</span>
 							<span className="tag-item">Redis</span>
 							<span className="tag-item">Microservices</span>
-							<span className="tag-item">WebSocket</span>
 							<span className="tag-item">Kubernetes</span>
 							<span className="tag-item">System design</span>
 							<span className="tag-item">TDD</span>
@@ -84,12 +143,56 @@ const Experience = () => {
 						</div>
 					</div>
 				</article>
+			</div>
+			<div className="flex">
+				<article className="flex-item">
+					<h3>
+						Full-stack Engineer
+						<small className="date">June 2019 - July 2020</small>
+					</h3>
+					<h5>Freelance <span className="tag-item">Working Language: English</span></h5>
+					<p>
+						<ul>
+							<li>Successfully managed multiple freelance projects simultaneously, demonstrating strong organizational and time management skills while delivering high-quality solutions within tight deadlines.</li>
+							<li>Collaborated closely with clients to understand their unique business requirements and translate them into actionable technical specifications, resulting in customized web solutions that exceeded client expectations.</li>
+							<li>Developed responsive and user-friendly web applications using modern front-end technologies such as HTML5, CSS3, and JavaScript framework React.js, resulting in enhanced user engagement and satisfaction.</li>
+							<li>Designed and implemented robust back-end architectures using server-side technologies such as Node.js ensuring scalability, security, and performance optimization.</li>
+							<li>Integrated third-party APIs and services to extend the functionality of web applications, leveraging technologies such as RESTful APIs, OAuth, and GraphQL, resulting in seamless integration with external platforms and services.</li>
+							<li>Implemented e-commerce solutions, including payment gateways and shopping cart functionality, to enable online transactions and enhance the revenue generation capabilities of client websites.</li>
+							<li>Conducted thorough testing and debugging of web applications to identify and resolve issues promptly, ensuring a smooth and error-free user experience across different devices and browsers.</li>
+							<li>Provided ongoing maintenance and support services to clients, including software updates, performance monitoring, and troubleshooting, fostering long-term client relationships and ensuring the continued success of their web applications.</li>
+							<li>Proactively researched and recommended new technologies and best practices to clients, helping them stay ahead of the competition and adopt innovative solutions that drive business growth and success.</li>
+							<li>Received consistently positive feedback and referrals from satisfied clients, highlighting the quality of work, professionalism, and reliability as a freelance full-stack web developer.</li>
+						</ul>
+					</p>
+					<div className="tags">
+						<span className="tag-item">NodeJS</span>
+						<span className="tag-item">React</span>
+						<span className="tag-item">Redux</span>
+						<span className="tag-item">SCSS</span>
+						<span className="tag-item">TDD</span>
+						<span className="tag-item">Javascript ES6</span>
+						<span className="tag-item">MongoDB</span>
+						<span className="tag-item">Webpack</span>
+					</div>
+					<div className="tags">
+						<span className="tag-item">CI/CD</span>
+						<span className="tag-item">Typescript</span>
+						<span className="tag-item">AWS</span>
+						<span className="tag-item">PostgreSQL</span>
+						<span className="tag-item">Redis</span>
+						<span className="tag-item">Microservices</span>
+						<span className="tag-item">Kubernetes</span>
+						<span className="tag-item">System design</span>
+						<span className="tag-item">TDD</span>
+					</div>
+				</article>
 				<article className="flex-item">
 					<h3>
 						Software Developer
-						<small className="date">Dec 2018 </small>
+						<small className="date">Dec 2018 - May 2019</small>
 					</h3>
-					<h5>IBM (contractor)</h5>
+					<h5>IBM (contractor) <span className="tag-item">Working Language: English</span></h5>
 
 					<p>
 						<ul>
@@ -141,6 +244,7 @@ const Experience = () => {
 							<span className="tag-item">Serverless</span>
 							<span className="tag-item">Distributed Systems</span>
 							<span className="tag-item">Esri Maps</span>
+
 						</div>
 						<div className="tags">
 							<a
@@ -153,15 +257,15 @@ const Experience = () => {
 						</div>
 					</div>
 				</article>
+
 			</div>
 			<div className="flex">
 				<article className="flex-item">
 					<h3>
 						Software Developer
-						<small className="date">Aug 2017</small>
+						<small className="date">Aug 2017 - Feb 2018</small>
 					</h3>
-					<h5>Andela Nigeria</h5>
-
+					<h5>Andela Nigeria <span className="tag-item">Working Language: English</span></h5>
 					<p>
 						<ul>
 							<li>Andela is an organisation that cultivates IT talent in Africa and provides leading
@@ -200,21 +304,23 @@ const Experience = () => {
 						<span className="tag-item">Webpack</span>
 						<span className="tag-item">CircleCI</span>
 						<span className="tag-item">Heroku</span>
-						<a
-							href="https://www.andela.com/"
-							target="_blank"
-							className="tag-item"
-						>
-							<i className="mdi mdi-earth" /> andela.com
-						</a>
+						<div className="tags">
+							<a
+								href="https://www.andela.com/"
+								target="_blank"
+								className="tag-item"
+							>
+								<i className="mdi mdi-earth" /> andela.com
+							</a>
+						</div>
 					</div>
 				</article>
 				<article className="flex-item">
 					<h3>
-						Systems Engineer (Electronic Payment Solutions)
-						<small className="date">Jan 2016</small>
+						Systems Engineer
+						<small className="date">Jan 2016 - Aug 2017</small>
 					</h3>
-					<h5>Interswitch Nigeria</h5>
+					<h5>Interswitch Nigeria  <span className="tag-item">Working Language: English</span></h5>
 					<p>
 						<ul>
 							<li>
@@ -246,13 +352,15 @@ const Experience = () => {
 						<span className="tag-item">System design</span>
 						<span className="tag-item">Electronic Funds Transfer</span>
 						<span className="tag-item">MSSQL</span>
-						<a
-							href="https://www.interswitchgroup.com/articles/GirlsWhoCode.html"
-							target="_blank"
-							className="tag-item"
-						>
-							<i className="mdi mdi-earth" /> Interswitch.com
-						</a>
+						<div className="tags">
+							<a
+								href="https://www.interswitchgroup.com/"
+								target="_blank"
+								className="tag-item"
+							>
+								<i className="mdi mdi-earth" /> Interswitch.com
+							</a>
+						</div>
 					</div>
 				</article>
 			</div>
