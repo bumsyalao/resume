@@ -38,7 +38,7 @@ class Resume extends React.Component {
 	};
 
 	render() {
-		const phone = "+971501507152";
+		const phone = "+2349097138779";
 		return (
 			<div
 				id="wrapper"
@@ -76,10 +76,10 @@ class Resume extends React.Component {
 									className="name-link"
 									href="https://bumsyalao.github.io/resume/"
 								>
-									Bunmi Alao
+									Omoyele Oladapo James
 								</a>
 							</span>
-							<p className="translation-text">/buːmi/</p>
+							{/* <p className="translation-text">/yeːle/</p>
 							<button className="translation-btn" onClick={this.onPlay}>
 								<audio ref={this.myRef} id="myAudio">
 									<source
@@ -93,20 +93,20 @@ class Resume extends React.Component {
 									Your browser does not support the audio element.
 								</audio>
 								<span className="material-icons">volume_up</span>
-							</button>
+							</button> */}
 						</div>
 						<div className="flex-item">
 							<a
 								className="download-btn"
 								href="./resume.pdf"
-								download="Bunmi_Alao_Resume.pdf"
+								download="Omoyele_Resume.pdf"
 							>
 								<i className="mdi mdi-file-pdf" /> Download PDF
 							</a>
 						</div>
 					</section>
 					<section className="flex contact">
-						<span className="flex-item">
+						{/* <span className="flex-item">
 							<a
 								className="contact-item"
 								href="https://master.d1swm8gje57dpg.amplifyapp.com"
@@ -115,38 +115,28 @@ class Resume extends React.Component {
 								<i className="mdi mdi-earth" />
 								&nbsp;http://bumsyalao.dev/
 							</a>
-						</span>
+						</span> */}
 						<span className="flex-item">
 							<a
 								className="contact-item"
-								href="mailto:bumsyalao@gmail.com"
+								href="mailto:yelejms@yahoo.com, m"
 								target="_blank"
 							>
 								<i className="mdi mdi-gmail" />
-								&nbsp;bumsyalao@gmail.com
+								&nbsp;yelejms@yahoo.com, 
 							</a>
 						</span>
 						<span className="flex-item">
 							<a
 								className="contact-item"
-								href="https://github.com/bumsyalao"
-								target="_blank"
-							>
-								<i className="mdi mdi-github-circle" />
-								&nbsp;/bumsyalao
-							</a>
-						</span>
-						<span className="flex-item">
-							<a
-								className="contact-item"
-								href="https://linkedin.com/in/bumsyalao"
+								href="https://linkedin.com/in/omoyele-james-602482191"
 								target="_blank"
 							>
 								<i className="mdi mdi-linkedin-box" />
-								&nbsp;/bumsyalao
+								&nbsp;/omoyele-james
 							</a>
 						</span>
-						<span className="flex-item">
+						{/* <span className="flex-item">
 							<a
 								className="contact-item"
 								href="https://medium.com/@bumsyalao12"
@@ -155,7 +145,7 @@ class Resume extends React.Component {
 								<i className="mdi mdi-newspaper" />
 								&nbsp;/medium
 							</a>
-						</span>
+						</span> */}
 						<span className="flex-item">
 							<a href={`tel:${phone}`}>
 								<i className="mdi mdi-phone" />
@@ -165,18 +155,28 @@ class Resume extends React.Component {
 					</section>
 					<section className="pitch">
 						<p>
-							Experienced software engineer with 6+ years of hands-on experience in crafting scalable,
-							high-performance web applications. Skilled in JavaScript, ReactJS, NodeJS, TypeScript, SQL,
-							and NoSQL databases. Expertise in architecting reusable modules, automating builds, and optimizing
-							front-end performance. Proficient in RESTful APIs, CI/CD, Docker, Kubernetes, Microservices, Task/messaging queues, and API integrations.
-							Strong background in authentication, tested JavaScript, HTML5, CSS, and state management tools.
-							Thrives on creating distributed systems, pioneering new tech, and streamlining tasks.
-							Recognized for project management, technical leadership, and mentorship.
+						As a dedicated professional with a Master's degree in Animal Nutrition and extensive experience in the nutrition industry, I bring a robust blend of scientific expertise and product management skills. My journey from working as a nutritionist at Spectra Farms Ltd to my current role as a product manager at Skretting has equipped me with a comprehensive understanding of the animal health and nutrition sector. I excel in strategic development, market analysis, and pricing strategy, ensuring that our products meet market demands and achieve financial targets. I am proficient in translating research data into actionable insights and creating effective marketing communication plans. My strong problem-solving abilities and commitment to integrity and teamwork make me a reliable and adaptable professional.
 						</p>
+					</section>
+					<section className="section section-skills">
+					<div className="flex">
+					<div className="tags">
+						<span className="tag-item">MS Office Suite (Word, Excel and PowerPoint)</span>
+						<span className="tag-item">Minitab</span>
+						<span className="tag-item">GIS</span>
+						<span className="tag-item">Bestmix</span>
+						<span className="tag-item">MiniTab</span>
+						<span className="tag-item">Problem solving</span>
+						<span className="tag-item">Communication</span>
+						<span className="tag-item">Attention to Detail</span>
+						<span className="tag-item">Prioritization</span>
+						<span className="tag-item">Financial management </span>
+					</div>
+					</div>
 					</section>
 					<Experience />
 					<Education />
-					<Projects />
+					{/* <Projects /> */}
 					<Awards />
 				</main>
 			</div>
