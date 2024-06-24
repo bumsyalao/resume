@@ -50,7 +50,7 @@ const Experience = () => {
 				<article className="flex-item">
 					<h3>
 						Product manager (Global Products)
-					<small className="date">Nov 2020 - Oct 2022 </small>
+					<small className="date">Nov 2020 - Present </small>
 					</h3>
 					<h5>Skretting Nigeria Limited</h5>
 
