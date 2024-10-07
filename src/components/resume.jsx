@@ -1,9 +1,9 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import Experience from "./experience.jsx";
 import Education from "./education.jsx";
 import Projects from "./projects.jsx";
 import Awards from "./awards.jsx";
+import Skills from "./skills.jsx";
 
 const STORE_KEY = "USE_DARK_MODE";
 
@@ -109,7 +109,7 @@ class Resume extends React.Component {
 						<span className="flex-item">
 							<a
 								className="contact-item"
-								href="https://master.d1swm8gje57dpg.amplifyapp.com"
+								href="https://bumsyalao-dev.vercel.app/"
 								target="_blank"
 							>
 								<i className="mdi mdi-earth" />
@@ -165,7 +165,7 @@ class Resume extends React.Component {
 					</section>
 					<section className="pitch">
 						<p>
-							Experienced software engineer with 6+ years of hands-on experience in crafting scalable,
+							Experienced software engineer with 7+ years of hands-on experience in crafting scalable,
 							high-performance web applications. Skilled in JavaScript, ReactJS, NodeJS, TypeScript, SQL,
 							and NoSQL databases. Expertise in architecting reusable modules, automating builds, and optimizing
 							front-end performance. Proficient in RESTful APIs, CI/CD, Docker, Kubernetes, Microservices, Task/messaging queues, and API integrations.
@@ -174,6 +174,7 @@ class Resume extends React.Component {
 							Recognized for project management, technical leadership, and mentorship.
 						</p>
 					</section>
+					<Skills />
 					<Experience />
 					<Education />
 					<Projects />

@@ -37,9 +37,9 @@ const Projects = () => {
 					<h3>
 						Github Searcher <small className="date">2020</small>
 					</h3>
-					<p>This project allows users to search through github users and repository.
+					<p>This project allows users to search through Github users and repositories.
 						It includes a web-based user interface for interaction and a back-end API for data storage and retrieval.
-						The system utilizes Typescript, React for the front-end development, Node.js and Express for the back-end API, and Redis for caching API request to Github.</p>
+						The system utilizes Typescript, React for the front-end development, Node.js and Express for the back-end API, and Redis for caching API requests to Github.</p>
 					<div className="tags">
 						<span className="tag-item">NodeJS</span>
 						<span className="tag-item">React</span>
@@ -55,7 +55,7 @@ const Projects = () => {
 							target="_blank"
 							className="tag-item"
 						>
-							<i className="mdi mdi-earth" /> Github-sercher
+							<i className="mdi mdi-earth" /> Github-searcher
 						</a>
 					</div>
 				</article>

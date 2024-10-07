@@ -20,6 +20,12 @@ $pageSize: 1100px;
 	align-items: center;
 }
 
+.flex-col {
+	display: flex;
+	flex-direction: column;
+	
+}
+
 .flex-item {
 	display: inline-block;
 }
@@ -156,8 +162,11 @@ ul {
 
 	article {
 		margin-top: $margin * 8;
-		max-width: 493px;
+		// max-width: 493px;
 
+		// .col {
+		// 	max-width: 200px !important;
+		// }
 		&:first-of-type {
 			margin-right: $margin * 8;
 		}
@@ -173,10 +182,16 @@ ul {
 		justify-content: space-between;
 	}
 
+	h4 {
+		font-size: 16px;
+		font-weight: 600;
+	}
+
 	h5 {
 		font-size: 16px;
 		font-weight: 500;
 	}
+
 
 	.date {
 		font-size: 0.88rem;
@@ -209,8 +224,79 @@ ul {
 		&:first-of-type:not(a) {
 			margin-left: 0;
 		}
-	}
+	}  
+	  
 }
+
+.section.skills {
+
+	h2 {
+	  font-size: 24px;
+	  margin-bottom: 20px;
+
+	}
+  
+	.skills-column {
+	  display: flex;
+	  flex-direction: column;
+	  gap: 20px;
+	  padding: 10px 0;
+  
+	  .skills-category {
+		display: flex;
+		align-items: center; /* Align the heading and items vertically */
+		gap: 10px; /* Space between the heading and the skill items */
+	  
+		strong {
+		  font-weight: bold;
+		  font-size: 18px;
+		  color: #333;
+		  margin-right: 10px; /* Add some space between the heading and the first item */
+		}
+	  
+		.skills-items {
+		  display: flex;
+		  flex-wrap: wrap;
+		  gap: 10px; /* Space between skill items */
+		}
+	  }
+	  
+	}
+  }
+  
+
+  .section.skills {
+	.skills-category {
+	  .skills-items {
+		.tag-item {
+		  display: inline-block;
+		  text-decoration: none;
+		  border: 1px solid;
+		  padding: 5px 10px;
+		  font-size: 0.75rem;
+		  margin-left: 10px;
+		  border-radius: 4px;
+		  font-weight: normal;
+		  background-color: #fff;
+		  color: #333;
+  
+		  /* Box shadow to elevate the item */
+		  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+		  transition: box-shadow 0.3s ease;
+  
+		  &:hover {
+			border-color: #007bff;
+			color: #007bff;
+  
+			/* Add a stronger shadow on hover */
+			box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+		  }
+		}
+	  }
+	}
+  }
+  
+  
 
 .heading-item {
 	display: flex;
