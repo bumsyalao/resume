@@ -48,7 +48,7 @@
     "express": "4.16.2",
     "material-components-web": "^6.0.0",
     "mdi": "2.1.19",
-    "node-sass": "^6.0.1",
+    "node-sass": "^7.0.0",
     "normalize-scss": "7.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
