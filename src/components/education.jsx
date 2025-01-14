@@ -8,17 +8,22 @@ const Education = () => {
 			<div className="flex">
 				<article className="flex-item">
 					<h3>
-						Hult International Business School <small className="date">2024-2025</small>
+						Hult International Business School <small className="date">2024 - 2025</small>
 					</h3>
 					<p>Masters of Business Administration(MBA)</p>
+					<ul>
+						<li>Business Data Analysis</li>
+						<li>Accounting for Managers</li>
+						<li>Financial Management and Decision making</li>
+						<li>Marketing Strategy</li>
+					</ul>
 				</article>
 				<article className="flex-item">
 					<h3>
 						Covenant University <small className="date">2010 - 2014</small>
 					</h3>
 					<p>Bachelor's Degree, Computer Science</p>
-					<p> CGPA: 4.43/5 </p>
-					<p>Final year project: A Computing Platform for Metabolic Network Visualization and Topological Analysis.</p>
+					<p>CGPA: 4.43/5</p>
 				</article>
 			</div>
 		</section>

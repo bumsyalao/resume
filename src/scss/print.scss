@@ -21,6 +21,18 @@
 		top: 0;
 	}
 
+	.sheet {
+		margin: ($margin * 20) auto;
+		position: relative;
+		max-width: $pageSize;
+		padding: $pad * 15;
+		border: none;
+		border-image-slice: none;
+		border-image-source: none;
+		border-width: none;
+		border-style: none;
+	}
+
 	// .profile-image{
 	// 	vertical-align:text-bottom !important;
 	// 	height: 10%;
