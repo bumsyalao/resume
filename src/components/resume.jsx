@@ -44,7 +44,7 @@ class Resume extends React.Component {
 				id="wrapper"
 				className={this.state.checkedInput ? "dark-theme" : "default-theme"}
 			>
-				<section className="controls">
+				{/* <section className="controls">
 					<div className="toggle-theme">
 						<i className="mdi mdi-24px mdi-white-balance-sunny" />
 						<label className="switch">
@@ -57,7 +57,7 @@ class Resume extends React.Component {
 						</label>
 						<i className="mdi mdi-24px mdi-weather-night" />
 					</div>
-				</section>
+				</section> */}
 				<main className="sheet">
 					<section className="flex head">
 						<div className="flex-item heading-item">
@@ -95,7 +95,7 @@ class Resume extends React.Component {
 								<span className="material-icons">volume_up</span>
 							</button> */}
 						</div>
-						<div className="flex-item">
+						{/* <div className="flex-item">
 							<a
 								className="download-btn"
 								href="./resume.pdf"
@@ -103,7 +103,7 @@ class Resume extends React.Component {
 							>
 								<i className="mdi mdi-file-pdf" /> Download PDF
 							</a>
-						</div>
+						</div> */}
 					</section>
 					<section className="flex contact">
 						{/* <span className="flex-item">
@@ -155,7 +155,13 @@ class Resume extends React.Component {
 					</section>
 					<section className="pitch">
 						<p>
-						As a dedicated professional with a Master's degree in Animal Nutrition and extensive experience in the nutrition industry, I bring a robust blend of scientific expertise and product management skills. My journey from working as a nutritionist at Spectra Farms Ltd to my current role as a product manager at Skretting has equipped me with a comprehensive understanding of the animal health and nutrition sector. I excel in strategic development, market analysis, and pricing strategy, ensuring that our products meet market demands and achieve financial targets. I am proficient in translating research data into actionable insights and creating effective marketing communication plans. My strong problem-solving abilities and commitment to integrity and teamwork make me a reliable and adaptable professional.
+						As a dedicated professional with a Master's degree in Animal Nutrition and extensive experience in the nutrition industry, 
+						I bring a robust blend of scientific expertise and product management skills. My journey from working as a nutritionist at 
+						Spectra Farms Ltd to my current role as a Product/Formulation manager at Skretting has equipped me with a comprehensive understanding of 
+						the animal health and nutrition sector. I excel in strategic development, market analysis, and pricing strategy, 
+						ensuring that our products meet market demands and achieve financial targets. 
+						I am proficient in translating research data into actionable insights and creating effective marketing communication plans. 
+						My strong problem-solving abilities and commitment to integrity and teamwork make me a reliable and adaptable professional.
 						</p>
 					</section>
 					<section className="section section-skills">
@@ -166,6 +172,14 @@ class Resume extends React.Component {
 						<span className="tag-item">GIS</span>
 						<span className="tag-item">Bestmix</span>
 						<span className="tag-item">MiniTab</span>
+						<span className="tag-item">Product Management</span>
+						<span className="tag-item">Budget management</span> 
+						<span className="tag-item">Market analysis</span>
+						<span className="tag-item">Aquaculture</span>
+						<span className="tag-item">Sales presentation</span>
+						<span className="tag-item">Project management</span>
+						<span className="tag-item">Animal nutrition</span>
+						<span className="tag-item">Sustainability</span>
 						<span className="tag-item">Problem solving</span>
 						<span className="tag-item">Communication</span>
 						<span className="tag-item">Attention to Detail</span>

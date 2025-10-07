@@ -144,6 +144,7 @@ ul {
 
 	.flex {
 		align-items: baseline;
+		flex-direction: column;
 	}
 
 	.flex-item {
@@ -160,7 +161,7 @@ ul {
 
 	article {
 		margin-top: $margin * 8;
-		max-width: 493px;
+		// max-width: 493px;
 
 		&:first-of-type {
 			margin-right: $margin * 8;
