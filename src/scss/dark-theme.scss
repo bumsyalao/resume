@@ -42,4 +42,27 @@
 			border-color: darken($color, 40%);
 		}
 	}
+
+	.section.skills {
+		.skills-category {
+			strong {
+				color: $color;
+			}
+		}
+		.skills-category {
+			.skills-items {
+				.tag-item {
+					background-color: #2a2a2a;
+					color: $color;
+					border-color: darken($color, 40%);
+					box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+					&:hover {
+						border-color: lighten($color, 20%);
+						color: lighten($color, 20%);
+						box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5);
+					}
+				}
+			}
+		}
+	}
 }

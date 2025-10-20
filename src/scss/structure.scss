@@ -167,8 +167,18 @@ ul {
 		// .col {
 		// 	max-width: 200px !important;
 		// }
-		&:first-of-type {
-			margin-right: $margin * 8;
+		// &:first-of-type {
+		// 	margin-right: $margin * 8;
+		// }
+
+		.separator {
+			margin: 0 10px;
+		}
+	
+		.flex-row {
+			margin: 10px 0px;
+			display: flex;
+			flex-direction: row;
 		}
 
 	}
@@ -225,6 +235,8 @@ ul {
 			margin-left: 0;
 		}
 	}  
+
+
 	  
 }
 

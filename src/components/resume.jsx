@@ -165,13 +165,14 @@ class Resume extends React.Component {
 					</section>
 					<section className="pitch">
 						<p>
-							Experienced software engineer with 7+ years of hands-on experience in crafting scalable,
-							high-performance web applications. Skilled in JavaScript, ReactJS, NodeJS, TypeScript, SQL,
-							and NoSQL databases. Expertise in architecting reusable modules, automating builds, and optimizing
-							front-end performance. Proficient in RESTful APIs, CI/CD, Docker, Kubernetes, Microservices, Task/messaging queues, and API integrations.
-							Strong background in authentication, tested JavaScript, HTML5, CSS, and state management tools.
-							Thrives on creating distributed systems, pioneering new tech, and streamlining tasks.
-							Recognized for project management, technical leadership, and mentorship.
+							Product-driven Full Stack Engineer with 8+ years of experience designing, 
+							building, and scaling data-intensive SaaS and AI-powered platforms across
+							e-commerce, cybersecurity, and government sectors. Skilled in Node.js, 
+							NestJS, React, Next.js, and MongoDB, with strong proficiency in cloud 
+							infrastructure (AWS, GCP, Docker, Kubernetes).
+							Known for turning product requirements into seamless technical solutions, optimizing performance, 
+							and driving full lifecycle delivery from concept to deployment. Passionate about building 
+							sustainable, scalable, and high-performance systems in fast-paced environments.
 						</p>
 					</section>
 					<Skills />

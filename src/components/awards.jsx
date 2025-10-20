@@ -4,8 +4,8 @@ import ReactDOM from 'react-dom';
 const Awards = () => {
 	return (
 		<section className="section">
-			<h2>Selected Awards and Certifications</h2>
-			<div className="flex">
+			<h2>Certifications</h2>
+			{/* <div className="flex"> */}
 				<article className="flex-item">
 					<h3>
 						Grokking Modern System Design Interview for Engineers&Managers <small className="date">2023</small>
@@ -19,8 +19,8 @@ const Awards = () => {
 					</h3>
 					<p>Microsoft License 13392204</p>
 				</article>
-			</div>
-			<div className="flex">
+			{/* </div> */}
+			{/* <div className="flex"> */}
 				<article className="flex-item">
 					<h3>Lean Six Sigma Yellow Belt Certification <small className="date">2017</small>
 					</h3>
@@ -37,7 +37,7 @@ const Awards = () => {
 					</h3>
 					<p><a href="https://www.linkedin.com/company/5063/" target="_blank">ACI worldwide </a></p>
 				</article>
-			</div>
+			{/* </div> */}
 
 		</section>
 	);

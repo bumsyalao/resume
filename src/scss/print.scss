@@ -1,4 +1,4 @@
-// Style for printer
+// Style for printer - ATS Optimized
 
 .printer {
 
@@ -14,6 +14,11 @@
 	.translation-text {
 		display: none;
 	}
+
+	.no-print {
+		display: none;
+	}
+
 
 	.date {
 		position: absolute;
@@ -31,16 +36,37 @@
 		border-image-source: none;
 		border-width: none;
 		border-style: none;
+		font-family: "Helvetica", "Arial", sans-serif;
+		line-height: 1.4;
 	}
 
-	// .profile-image{
-	// 	vertical-align:text-bottom !important;
-	// 	height: 10%;
-	// 	width: 10%;
-	// 	margin: none !important;
-	// 	border-radius: 50%;
-	// }
 	.name-link {
 		color: #33333e !important;
 	}
+
+	.section.skills {
+		.skills-category {
+			strong {
+				font-size: 1.1rem !important;
+			}
+		  .skills-items {
+			.tag-item {
+			  display: inline-block;
+			  text-decoration: none;
+			  border: none !important;
+			  padding: 5px 5px;
+			  font-size: 1rem;
+			  margin-left: 10px;
+			  font-weight: normal;
+			  background-color: #fff;
+			  color: #333;
+	  
+			  /* Box shadow to elevate the item */
+			  box-shadow: none !important;
+			  transition: none !important;
+	  
+			}
+		  }
+		}
+	  }
 }

@@ -5,11 +5,12 @@ const Education = () => {
 	return (
 		<section className="section education">
 			<h2>Education</h2>
-			<div className="flex">
+			{/* <div className="flex"> */}
 				<article className="flex-item">
 					<h3>
-						Hult International Business School <small className="date">2024 - 2025</small>
+						Hult International Business School <span className="date">2024 - 2025</span>
 					</h3>
+
 					<p>Masters of Business Administration(MBA)</p>
 					<ul>
 						<li>Business Data Analysis</li>
@@ -20,12 +21,12 @@ const Education = () => {
 				</article>
 				<article className="flex-item">
 					<h3>
-						Covenant University <small className="date">2010 - 2014</small>
+						Covenant University <span className="date">2010 - 2014</span>
 					</h3>
 					<p>Bachelor's Degree, Computer Science</p>
 					<p>CGPA: 4.43/5</p>
 				</article>
-			</div>
+			{/* </div> */}
 		</section>
 	);
 };
