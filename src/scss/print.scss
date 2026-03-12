@@ -45,28 +45,40 @@
 	}
 
 	.section.skills {
-		.skills-category {
-			strong {
-				font-size: 1.1rem !important;
-			}
-		  .skills-items {
-			.tag-item {
-			  display: inline-block;
-			  text-decoration: none;
-			  border: none !important;
-			  padding: 5px 5px;
-			  font-size: 1rem;
-			  margin-left: 10px;
-			  font-weight: normal;
-			  background-color: #fff;
-			  color: #333;
-	  
-			  /* Box shadow to elevate the item */
-			  box-shadow: none !important;
-			  transition: none !important;
-	  
-			}
-		  }
+		.skills-grid {
+			grid-template-columns: 200px 1fr;
+			column-gap: 16px;
+			row-gap: 12px;
+			padding: 6px 0;
 		}
-	  }
+
+		.skills-label strong {
+			font-size: 1.02rem !important;
+			font-weight: 800 !important;
+		}
+
+		.skills-items {
+			gap: 0;
+			line-height: 1.35;
+		}
+
+		.skills-items .tag-item {
+			display: inline;
+			border: none !important;
+			background: transparent !important;
+			padding: 0;
+			margin: 0;
+			font-size: 1rem;
+			box-shadow: none !important;
+			transition: none !important;
+		}
+
+		.skills-items .tag-item::after {
+			content: ", ";
+		}
+
+		.skills-items .tag-item:last-child::after {
+			content: "";
+		}
+	}
 }

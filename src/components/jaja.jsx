@@ -112,8 +112,8 @@ class Resume extends React.Component {
 								href="https://bumsyalao-dev.vercel.app/"
 								target="_blank"
 							>
-								<i className="mdi mdi-earth" />
-								&nbsp;http://bumsyalao.dev/
+								<i className="mdi mdi-earth no-print" />
+								&nbsp; https://bumsyalao.dev/
 							</a>
 						</span>
 						<span className="flex-item">
@@ -122,7 +122,7 @@ class Resume extends React.Component {
 								href="mailto:bumsyalao@gmail.com"
 								target="_blank"
 							>
-								<i className="mdi mdi-gmail" />
+								<i className="mdi mdi-gmail no-print" />
 								&nbsp;bumsyalao@gmail.com
 							</a>
 						</span>
@@ -132,8 +132,8 @@ class Resume extends React.Component {
 								href="https://github.com/bumsyalao"
 								target="_blank"
 							>
-								<i className="mdi mdi-github-circle" />
-								&nbsp;/bumsyalao
+								<i className="mdi mdi-github-circle no-print" />
+								&nbsp; https://github.com/bumsyalao
 							</a>
 						</span>
 						<span className="flex-item">
@@ -142,40 +142,37 @@ class Resume extends React.Component {
 								href="https://linkedin.com/in/bumsyalao"
 								target="_blank"
 							>
-								<i className="mdi mdi-linkedin-box" />
-								&nbsp;/bumsyalao
+								<i className="mdi mdi-linkedin-box no-print" />
+								&nbsp;https://linkedin.com/in/bumsyalao
 							</a>
 						</span>
-						<span className="flex-item">
+						<span className="flex-item no-print">
 							<a
 								className="contact-item"
 								href="https://medium.com/@bumsyalao12"
 								target="_blank"
 							>
-								<i className="mdi mdi-newspaper" />
+								<i className="mdi mdi-newspaper no-print" />
 								&nbsp;/medium
 							</a>
 						</span>
 						<span className="flex-item">
 							<a href={`tel:${phone}`}>
-								<i className="mdi mdi-phone" />
+								<i className="mdi mdi-phone no-print" />
 								&nbsp;{phone}
 							</a>
 						</span>
 					</section>
 					<section className="pitch">
 						<p>
-							Senior Frontend &amp; Full-Stack Engineer with 8+ years
-							of experience designing and shipping data-intensive SaaS platforms
-							across cybersecurity, e-commerce, and government. Specialized in
-							React, Next.js, and TypeScript, with hands-on depth in Node.js and
-							NestJS for building scalable APIs that power rich user interfaces.
-							Comfortable owning frontend architecture, performance, and developer
-							experience end-to-end, from component design through CI/CD and cloud
-							deployment (AWS, GCP, Docker, Kubernetes). Known for turning
-							ambiguous product requirements into pragmatic, maintainable solutions
-							and for using modern AI-assisted development workflows to iterate
-							faster without sacrificing code quality.
+							Product-driven Full Stack Engineer with 8+ years of experience designing, 
+							building, and scaling data-intensive SaaS and AI-powered platforms across
+							e-commerce, cybersecurity, and government sectors. Skilled in Node.js, 
+							NestJS, React, Next.js, and MongoDB, with strong proficiency in cloud 
+							infrastructure (AWS, GCP, Docker, Kubernetes).
+							Known for turning product requirements into seamless technical solutions, optimizing performance, 
+							and driving full lifecycle delivery from concept to deployment. Passionate about building 
+							sustainable, scalable, and high-performance systems in fast-paced environments.
 						</p>
 					</section>
 					<Skills />
