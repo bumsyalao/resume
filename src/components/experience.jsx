@@ -16,60 +16,35 @@ const Experience = () => {
 				</div>
 				<ul>
 					<li>
-						Led frontend development for data-intensive React dashboards in a
-						cybersecurity SaaS serving 6M+ users, prioritizing responsiveness,
-						reliability, and safe rollout paths.
+						Led frontend development for React-based dashboards and product surfaces in a high-traffic cybersecurity platform, focusing on responsiveness, safe rollout, and maintainable UI architecture.
 					</li>
 					<li>
-						Built and evolved reusable React component patterns backed by Node.js
-						services, improving UI consistency and enabling faster iterations
-						across multiple product areas.
+						Built and refined reusable component patterns used across multiple product areas, improving consistency and reducing duplicated frontend work.
 					</li>
 					<li>
-						Increased user engagement by ~25% through modular UI updates,
-						targeted performance profiling, and focused optimization of
-						high-traffic API endpoints.
+						Develop frontend features backed by Node.js services, translating product requirements into clear UI and API changes.					</li>
+					<li>
+						Improved dashboard responsiveness through performance profiling, targeted render optimization, and cleanup of inefficient data-fetching paths.
 					</li>
 					<li>
-						Implemented real-time features with WebSockets for live progress and
-						notifications, and tuned MongoDB queries to reduce latency during
-						peak usage.
+						Implemented real-time product features with WebSockets for live progress updates and notifications.
 					</li>
 					<li>
-						Strengthened delivery with Docker and GitHub Actions CI/CD,
-						standardizing build/test/lint stages and cutting deployment time by
-						~40%.
+						Strengthened delivery workflows by standardizing linting, testing, and build checks in GitHub Actions and Docker-based environments.
 					</li>
 					<li>
-						Introduced practical observability hygiene (structured logs, key
-						request metrics) to simplify debugging and reduce time-to-identify
-						on recurring issues.
+						Added structured logging and request-level observability to make production issues easier to trace and debug.
 					</li>
 					<li>
-						Worked closely with product and data teams to turn ambiguous
-						requirements into well-scoped frontend and API work with clear
-						success metrics and acceptance criteria.
+						Wrote API usage notes, component documentation, and setup guides that reduced onboarding friction for engineers and contributors.
 					</li>
 					<li>
-						Authored concise API usage notes, component READMEs, and setup docs
-						to speed onboarding and reduce back-and-forth on integration
-						questions.
+						Reviewed code with a focus on readability, test coverage, and long-term maintainability, while making incremental refactors to keep frontend code healthy.
 					</li>
 					<li>
-						Participated in code reviews with a focus on readability, test
-						coverage, and long-term maintainability; used small, continuous
-						refactors to keep tech debt in check without slowing delivery.
+						Worked closely with product and data stakeholders to turn ambiguous requirements into clear deliverables, acceptance criteria, and release plans.
 					</li>
-					<li>
-						Used AI-assisted development workflows (code suggestions,
-						refactor guidance) to accelerate iteration on React and Node.js
-						modules while keeping review standards high.
-					</li>
-					<li>
-						Coordinated cross-team work (engineering, product, contributors) to
-						align releases, reduce integration risk, and keep stakeholder
-						communication tight.
-					</li>
+
 				</ul>
 				<div className="tags no-print">
 					<a
@@ -93,54 +68,37 @@ const Experience = () => {
 				</div>
 				<ul>
 					<li>
-						Designed and shipped a React/Next.js back-office application that
-						streamlined internal workflows and reliably supported 10K+ daily
-						users.
+						Designed and shipped a React and Next.js back-office application used by internal teams to support daily operational workflows.
 					</li>
 					<li>
-						Optimized core React/Next.js modules (banners, carousels, content
-						cards) via code-splitting and memoization, improving page load by
-						~35%.
+						Built and optimized shared frontend modules, including banners, carousels, and content components, with a focus on rendering efficiency and maintainability.
 					</li>
 					<li>
-						Reduced backend API latency by ~40% with targeted query tuning,
-						indexes, and caching, easing load on shared services.
+						Improved application performance through code-splitting, memoization, and tighter control over data-fetching patterns.
 					</li>
 					<li>
-						Led the MongoDB to PostgreSQL migration end-to-end, including schema
-						design, data validation, rollbacks, and cut-over with minimal
-						disruption.
+						Worked on backend performance issues by tuning queries, adding indexes, and introducing caching where appropriate.
 					</li>
 					<li>
-						Introduced and operationalized Strapi (headless CMS) so
-						non-technical teams could publish and iterate on content ~90%
-						faster.
+						Led the migration from MongoDB to PostgreSQL, covering schema design, data validation, rollout planning, and production cutover.
 					</li>
 					<li>
-						Managed AWS (EC2, S3, CloudFront) for predictable performance and
-						availability, maintaining high uptime across environments.
+						Introduced Strapi as a headless CMS, enabling non-technical teams to manage and publish content without engineering support for routine updates.
 					</li>
 					<li>
-						Built CI/CD pipelines with automated tests, linting, and gated
-						deploys, reducing delivery time by ~40% and raising release
-						confidence.
+						Managed AWS infrastructure across EC2, S3, and CloudFront to support reliable delivery across environments.
 					</li>
 					<li>
-						Mentored 5+ junior engineers on frontend best practices, debugging,
-						PR etiquette, and test writing; improved onboarding speed and
-						consistency.
+						Built CI/CD pipelines with automated checks for testing, linting, and deployment gating.
 					</li>
 					<li>
-						Conducted systematic code reviews with clear checklists (security,
-						performance, accessibility), raising baseline quality across squads.
+						Mentored junior engineers on React fundamentals, debugging, pull request quality, and test writing.
 					</li>
 					<li>
-						Collaborated with product, design, and ops to balance data
-						integrity, UX, and delivery timelines during high-pressure launches.
+						Partnered with product, design, and operations teams to deliver launches while balancing UX, data integrity, and engineering constraints.
 					</li>
 					<li>
-						Drove small, continuous refactors to reduce tech debt, standardize
-						folder structures, and prevent regressions.
+						Drove incremental refactors to simplify code structure, reduce regressions, and improve development speed over time.
 					</li>
 				</ul>
 				<div className="tags no-print">
@@ -166,56 +124,35 @@ const Experience = () => {
 				</div>
 				<ul>
 					<li>
-						Contributed to TAMM, Abu Dhabi&apos;s e-Government platform, building
-						modular Node.js/Python services and responsive, component-based web
-						UIs.
+						Contributed to Abu Dhabi’s TAMM e-government platform by building modular services and responsive web interfaces for citizen-facing workflows.
 					</li>
 					<li>
-						Integrated external business and investment APIs into calculators
-						and dashboards, improving decision workflows for end-users.
+						Integrated external business and investment APIs into calculators and dashboards used to support decision-making.
 					</li>
 					<li>
-						Built responsive web interfaces for desktop and mobile, improving
-						accessibility, layout consistency, and usability across devices.
+						Built responsive interfaces for desktop and mobile, improving usability and consistency across screen sizes.
 					</li>
 					<li>
-						Enhanced front-end data visualizations (charts, map views) and
-						interaction patterns to surface insights faster for users.
+						Improved data-heavy screens by reducing redundant requests, introducing caching, and simplifying response handling on the frontend.
 					</li>
 					<li>
-						Raised performance ~30% on data-heavy screens by eliminating
-						redundant calls, adding caching, and optimizing API response
-						payloads.
+						Worked on charts and map-based interfaces to present information more clearly to end users.
 					</li>
 					<li>
-						Designed and implemented testing strategies (unit and integration)
-						and wired them into the CI pipeline to stabilize releases.
+						Added unit and integration tests and integrated them into CI workflows to support more stable releases.
 					</li>
 					<li>
-						Wrote and maintained technical documentation (API references, user
-						guides) to support multiple stakeholder groups.
+						Produced technical documentation for APIs and user-facing functionality to support delivery across engineering and stakeholder groups.
 					</li>
 					<li>
-						Collaborated with design, analytics, and infrastructure teams to
-						refine requirements, validate scope, and reduce surprises late in
-						sprints.
+						Collaborated with design, analytics, and infrastructure teams to refine requirements and reduce late-stage delivery surprises.
 					</li>
 					<li>
-						Implemented secure data handling patterns in line with organizational
-						standards for privacy and confidentiality.
+						Applied secure data-handling practices in line with platform and organizational standards.
 					</li>
-					<li>
-						Triaged bugs with clear reproduction steps and metrics, reducing
-						time-to-fix on recurring issues.
+					<li>Investigated defects, documented reproducible cases, and supported fixes through release.
 					</li>
-					<li>
-						Participated in sprint planning, demos, and retros to continuously
-						improve delivery practices and communication.
-					</li>
-					<li>
-						Helped streamline deployment steps with containerization and
-						consistent environment configuration.
-					</li>
+
 				</ul>
 				<div className="tags no-print">
 					<a
@@ -238,33 +175,21 @@ const Experience = () => {
 				</div>
 				<ul>
 					<li>
-						Built an online publishing platform with a clean editorial web UI,
-						making it easy for users to create, edit, and manage articles.
+						Built web applications for publishing and messaging products, with a focus on clean UI, responsiveness, and maintainable frontend code.
 					</li>
-					<li>
-						Developed a messaging web app focused on performance and scalability,
-						improving responsiveness under load.
+					<li>Developed features that supported content creation, editing, and management in editorial workflows.
 					</li>
-					<li>
-						Contributed to Reaction Commerce (open-source) with bug fixes and
-						documentation improvements recognized by maintainers.
+					<li>Worked on performance-sensitive product areas to improve responsiveness under load.
 					</li>
-					<li>
-						Collaborated with distributed teams across time zones, using clear
-						specs, async updates, and shared standards to stay unblocked.
+					<li>Contributed bug fixes and documentation improvements to open-source commerce tooling.
 					</li>
-					<li>
-						Implemented unit and integration tests (Jest/Mocha where applicable)
-						to protect core modules from regressions.
+					<li>Collaborated with distributed teams across time zones using clear specs, async communication, and shared engineering standards.
 					</li>
-					<li>
-						Established linting and formatting rules plus small CI checks to keep
-						code style consistent and pull requests easier to review.
+					<li>Added unit and integration tests to protect core product flows from regression.
 					</li>
-					<li>
-						Documented APIs and onboarding steps for new contributors, lowering
-						ramp-up time and improving project continuity.
+					<li>Set up linting, formatting, and lightweight CI checks to improve code quality and review consistency.
 					</li>
+					<li>Documented APIs and onboarding steps to help new contributors ramp up faster.</li>
 				</ul>
 				<div className="tags no-print">
 					<a
@@ -287,55 +212,19 @@ const Experience = () => {
 					<em>Lagos, Nigeria</em>
 				</div>
 				<ul>
-					<li>
-						Supported continuous delivery and deployment of payment solutions
-						serving ~13M customers across multiple channels.
+					<li>Supported production payment systems across deployment, maintenance, and incident response workflows.
 					</li>
-					<li>
-						Led FEP deployments, upgrades, and maintenance across
-						Postilion/PostCard/Postilion Office, coordinating closely with bank
-						teams.
+					<li>Managed upgrades and operational changes across payment infrastructure in coordination with bank and partner teams.
 					</li>
-					<li>
-						Deployed and maintained Hardware Security Modules (HSMs) to
-						safeguard keys and ensure robust transaction security.
+					<li>Worked with HSM deployments and secure transaction environments.
 					</li>
-					<li>
-						Drove channel certifications and enhancements (ATM, POS, WEB, Mobile)
-						in line with EMV and network standards.
+					<li>Supported integrations across card networks and payment channels including ATM, POS, web, and mobile.
 					</li>
-					<li>
-						Integrated external networks and processors (MasterCard, VISA,
-						Verve), ensuring end-to-end compatibility.
+					<li>Maintained SQL environments, deployment procedures, and operational checklists to improve release reliability.
 					</li>
-					<li>
-						Administered MS SQL environments for reliability and performance,
-						enforcing backups and maintenance routines.
+					<li>Assisted with troubleshooting, escalation, and post-fix validation in business-critical systems.
 					</li>
-					<li>
-						Contributed to incident response with structured triage, clear
-						escalation paths, and post-fix validation.
-					</li>
-					<li>
-						Wrote operational SOPs and deployment checklists that reduced
-						misconfigurations and handover friction.
-					</li>
-					<li>
-						Performed capacity checks and performance tests ahead of peak periods
-						to reduce risk of slowdowns and outages.
-					</li>
-					<li>
-						Coordinated with compliance and security teams on audit items,
-						evidence gathering, and remediation tracking.
-					</li>
-					<li>
-						Partnered with business stakeholders to prioritize fixes that
-						protected customer trust and minimized transaction failures.
-					</li>
-					<li>
-						Assisted with vendor coordination and environment parity across
-						test/stage/prod to stabilize releases.
-					</li>
+
 				</ul>
 				<div className="tags no-print">
 					<a
